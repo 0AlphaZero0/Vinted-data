@@ -1,0 +1,47 @@
+[
+  {
+    "id": 6,
+    "title": "Neuf avec \u00e9tiquette",
+    "description": "Article neuf, jamais port\u00e9/utilis\u00e9 avec \u00e9tiquettes ou dans son emballage d\u2019origine.",
+    "explanation": "Article neuf, jamais port\u00e9/utilis\u00e9 avec \u00e9tiquettes ou dans son emballage d\u2019origine.",
+    "explanation_title": "Cet article est flambant neuf ?",
+    "is_default": 0,
+    "order": 5
+  },
+  {
+    "id": 1,
+    "title": "Neuf sans \u00e9tiquette",
+    "description": "Article neuf, jamais port\u00e9/utilis\u00e9, sans \u00e9tiquettes ni emballage d\u2019origine.",
+    "explanation": "Article neuf, jamais port\u00e9/utilis\u00e9, sans \u00e9tiquettes ni emballage d\u2019origine.",
+    "explanation_title": "L\u2019article n\u2019a plus d\u2019\u00e9tiquette, mais il n\u2019a jamais \u00e9t\u00e9 port\u00e9 ?",
+    "is_default": 0,
+    "order": 10
+  },
+  {
+    "id": 2,
+    "title": "Tr\u00e8s bon \u00e9tat",
+    "description": "Un article tr\u00e8s peu port\u00e9/utilis\u00e9 qui peut avoir de l\u00e9g\u00e8res imperfections, mais qui reste en tr\u00e8s bon \u00e9tat. Pr\u00e9cise avec des photos et une description d\u00e9taill\u00e9e, les d\u00e9fauts de ton article.",
+    "explanation": "Un article tr\u00e8s peu port\u00e9/utilis\u00e9 qui peut avoir de l\u00e9g\u00e8res imperfections, mais qui reste en tr\u00e8s bon \u00e9tat. Pr\u00e9cise avec des photos et une description d\u00e9taill\u00e9e, les d\u00e9fauts de ton article.",
+    "explanation_title": "L\u2019article a d\u00e9j\u00e0 \u00e9t\u00e9 port\u00e9 mais n\u2019a pas de d\u00e9faut apparent ?",
+    "is_default": 1,
+    "order": 20
+  },
+  {
+    "id": 3,
+    "title": "Bon \u00e9tat",
+    "description": "Un article port\u00e9/utilis\u00e9 quelques fois, montre des imperfections et des signes d\u2019usure. Pr\u00e9cise avec des photos et une description d\u00e9taill\u00e9e, les d\u00e9fauts de ton article.",
+    "explanation": "Un article port\u00e9/utilis\u00e9 quelques fois, montre des imperfections et des signes d\u2019usure. Pr\u00e9cise avec des photos et une description d\u00e9taill\u00e9e, les d\u00e9fauts de ton article.",
+    "explanation_title": "Cet article a de l\u00e9gers d\u00e9fauts ?",
+    "is_default": 0,
+    "order": 30
+  },
+  {
+    "id": 4,
+    "title": "Satisfaisant",
+    "description": "Un article port\u00e9/utilis\u00e9 plusieurs fois, montre des imperfections et des signes d\u2019usure. Pr\u00e9cise avec des photos et une description d\u00e9taill\u00e9e, les d\u00e9fauts de ton article.",
+    "explanation": "Un article port\u00e9/utilis\u00e9 plusieurs fois, montre des imperfections et des signes d\u2019usure. Pr\u00e9cise avec des photos et une description d\u00e9taill\u00e9e, les d\u00e9fauts de ton article.",
+    "explanation_title": "L\u2019article a un ou plusieurs d\u00e9fauts ?",
+    "is_default": 0,
+    "order": 40
+  }
+]

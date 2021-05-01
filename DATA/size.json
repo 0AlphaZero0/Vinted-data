@@ -1,0 +1,2450 @@
+[
+  {
+    "id": 3,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Vyri\u0161ki drabu\u017eiai (LT)",
+    "size_ids": [],
+    "faq_entry_id": null,
+    "sizes": []
+  },
+  {
+    "id": 5,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Vaiki\u0161ki drabu\u017eiai",
+    "size_ids": [],
+    "faq_entry_id": null,
+    "sizes": []
+  },
+  {
+    "id": 6,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "K\u016bdiki\u0173 drabu\u017eiai",
+    "size_ids": [],
+    "faq_entry_id": null,
+    "sizes": []
+  },
+  {
+    "id": 8,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Soutiens-gorge",
+    "size_ids": [],
+    "faq_entry_id": 508,
+    "sizes": []
+  },
+  {
+    "id": 10,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Shoes, men, UK",
+    "size_ids": [],
+    "faq_entry_id": null,
+    "sizes": []
+  },
+  {
+    "id": 11,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Shoes, women, UK",
+    "size_ids": [],
+    "faq_entry_id": null,
+    "sizes": []
+  },
+  {
+    "id": 12,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Shoes, children, UK",
+    "size_ids": [],
+    "faq_entry_id": null,
+    "sizes": []
+  },
+  {
+    "id": 13,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Mode Hommes",
+    "size_ids": [],
+    "faq_entry_id": null,
+    "sizes": []
+  },
+  {
+    "id": 15,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Women (UK)",
+    "size_ids": [],
+    "faq_entry_id": null,
+    "sizes": []
+  },
+  {
+    "id": 16,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Femme (DE)",
+    "size_ids": [],
+    "faq_entry_id": 506,
+    "sizes": []
+  },
+  {
+    "id": 17,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Bras sizes, UK",
+    "size_ids": [],
+    "faq_entry_id": null,
+    "sizes": []
+  },
+  {
+    "id": 20,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Rings UK",
+    "size_ids": [],
+    "faq_entry_id": null,
+    "sizes": []
+  },
+  {
+    "id": 21,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Animaux",
+    "size_ids": [],
+    "faq_entry_id": null,
+    "sizes": []
+  },
+  {
+    "id": 22,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "V\u00eatements",
+    "size_ids": [],
+    "faq_entry_id": 506,
+    "sizes": []
+  },
+  {
+    "id": 23,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Chaussures hommes",
+    "size_ids": [],
+    "faq_entry_id": null,
+    "sizes": []
+  },
+  {
+    "id": 24,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Chaussures",
+    "size_ids": [],
+    "faq_entry_id": null,
+    "sizes": []
+  },
+  {
+    "id": 25,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Tailles femme (CZ)",
+    "size_ids": [],
+    "faq_entry_id": 506,
+    "sizes": []
+  },
+  {
+    "id": 28,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Patins \u00e0 roulette, chaussures pour roller",
+    "size_ids": [],
+    "faq_entry_id": null,
+    "sizes": []
+  },
+  {
+    "id": 33,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Tailles chapeau enfant",
+    "size_ids": [],
+    "faq_entry_id": null,
+    "sizes": []
+  },
+  {
+    "id": 34,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Universel",
+    "size_ids": [],
+    "faq_entry_id": null,
+    "sizes": []
+  },
+  {
+    "id": 35,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Chaussures",
+    "size_ids": [],
+    "faq_entry_id": null,
+    "sizes": []
+  },
+  {
+    "id": 36,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Soutiens-gorge",
+    "size_ids": [],
+    "faq_entry_id": 508,
+    "sizes": []
+  },
+  {
+    "id": 37,
+    "caption_code": 20,
+    "caption": "Age",
+    "description": "Enfants",
+    "size_ids": [],
+    "faq_entry_id": 516,
+    "sizes": []
+  },
+  {
+    "id": 41,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Femmes, chaussures",
+    "size_ids": [],
+    "faq_entry_id": null,
+    "sizes": []
+  },
+  {
+    "id": 42,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Tailles de soutiens-gorge",
+    "size_ids": [],
+    "faq_entry_id": 508,
+    "sizes": []
+  },
+  {
+    "id": 47,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Tailles de chaussures enfants",
+    "size_ids": [],
+    "faq_entry_id": null,
+    "sizes": []
+  },
+  {
+    "id": 48,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Tailles enfants et b\u00e9b\u00e9s",
+    "size_ids": [],
+    "faq_entry_id": null,
+    "sizes": []
+  },
+  {
+    "id": 50,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Women clothing",
+    "size_ids": [],
+    "faq_entry_id": null,
+    "sizes": []
+  },
+  {
+    "id": 51,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Women shoes sizes",
+    "size_ids": [],
+    "faq_entry_id": null,
+    "sizes": []
+  },
+  {
+    "id": 4,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Tailles",
+    "size_ids": [
+      1226,
+      102,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      310,
+      311,
+      312,
+      1227,
+      1228,
+      1229,
+      1230,
+      90,
+      97
+    ],
+    "faq_entry_id": 506,
+    "sizes": [
+      {
+        "id": 1226,
+        "title": "XXXS / 30 / 2",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 1
+      },
+      {
+        "id": 102,
+        "title": "XXS / 32 / 4",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 2
+      },
+      {
+        "id": 2,
+        "title": "XS / 34 / 6",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 3
+      },
+      {
+        "id": 3,
+        "title": "S / 36 / 8",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 4
+      },
+      {
+        "id": 4,
+        "title": "M / 38 / 10",
+        "is_default": 1,
+        "is_other": 0,
+        "order": 5
+      },
+      {
+        "id": 5,
+        "title": "L / 40 / 12",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 6
+      },
+      {
+        "id": 6,
+        "title": "XL / 42 / 14",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 7
+      },
+      {
+        "id": 7,
+        "title": "XXL / 44 / 16",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 8
+      },
+      {
+        "id": 310,
+        "title": "XXXL / 46 / 18",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 9
+      },
+      {
+        "id": 311,
+        "title": "4XL / 48 / 20",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 10
+      },
+      {
+        "id": 312,
+        "title": "5XL / 50 / 22",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 11
+      },
+      {
+        "id": 1227,
+        "title": "6XL / 52 / 24",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 12
+      },
+      {
+        "id": 1228,
+        "title": "7XL / 54 / 26",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 13
+      },
+      {
+        "id": 1229,
+        "title": "8XL / 56 / 28",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 14
+      },
+      {
+        "id": 1230,
+        "title": "9XL / 58 / 30",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 15
+      },
+      {
+        "id": 90,
+        "title": "Taille unique",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 16
+      },
+      {
+        "id": 97,
+        "title": "Autre",
+        "is_default": 0,
+        "is_other": 1,
+        "order": 17
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Chaussures",
+    "size_ids": [
+      55,
+      1195,
+      56,
+      1196,
+      57,
+      1197,
+      58,
+      1198,
+      59,
+      1199,
+      60,
+      1200,
+      61,
+      1201,
+      62,
+      63,
+      94,
+      99
+    ],
+    "faq_entry_id": 510,
+    "sizes": [
+      {
+        "id": 55,
+        "title": "35",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 1
+      },
+      {
+        "id": 1195,
+        "title": "35.5",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 2
+      },
+      {
+        "id": 56,
+        "title": "36",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 3
+      },
+      {
+        "id": 1196,
+        "title": "36.5",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 4
+      },
+      {
+        "id": 57,
+        "title": "37",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 5
+      },
+      {
+        "id": 1197,
+        "title": "37.5",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 6
+      },
+      {
+        "id": 58,
+        "title": "38",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 7
+      },
+      {
+        "id": 1198,
+        "title": "38.5 ",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 8
+      },
+      {
+        "id": 59,
+        "title": "39",
+        "is_default": 1,
+        "is_other": 0,
+        "order": 9
+      },
+      {
+        "id": 1199,
+        "title": "39.5 ",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 10
+      },
+      {
+        "id": 60,
+        "title": "40",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 11
+      },
+      {
+        "id": 1200,
+        "title": "40.5",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 12
+      },
+      {
+        "id": 61,
+        "title": "41",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 13
+      },
+      {
+        "id": 1201,
+        "title": "41.5 ",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 14
+      },
+      {
+        "id": 62,
+        "title": "42",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 15
+      },
+      {
+        "id": 63,
+        "title": "43",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 16
+      },
+      {
+        "id": 94,
+        "title": "Universel",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 17
+      },
+      {
+        "id": 99,
+        "title": "Autre",
+        "is_default": 0,
+        "is_other": 1,
+        "order": 18
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Tailles enfants et b\u00e9b\u00e9s",
+    "size_ids": [
+      610,
+      666,
+      612,
+      613,
+      614,
+      616,
+      617,
+      618,
+      619,
+      622,
+      623,
+      624,
+      625,
+      626,
+      627,
+      628,
+      629,
+      630,
+      631,
+      632,
+      633,
+      634,
+      635,
+      620
+    ],
+    "faq_entry_id": 516,
+    "sizes": [
+      {
+        "id": 610,
+        "title": "Pr\u00e9matur\u00e9, jusqu'\u00e0 44cm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 1
+      },
+      {
+        "id": 666,
+        "title": "Nouveau n\u00e9 / 44-50 cm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 2
+      },
+      {
+        "id": 612,
+        "title": "Jusqu'\u00e0 1 mois / 50-56 cm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 3
+      },
+      {
+        "id": 613,
+        "title": "1-3 mois / 56-62 cm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 4
+      },
+      {
+        "id": 614,
+        "title": "3-6 mois / 62-68 cm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 5
+      },
+      {
+        "id": 616,
+        "title": "6-9 mois / 68-74 cm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 6
+      },
+      {
+        "id": 617,
+        "title": "9-12 mois / 74-80 cm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 7
+      },
+      {
+        "id": 618,
+        "title": "12-18 mois / 80-86 cm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 8
+      },
+      {
+        "id": 619,
+        "title": "18-24 mois / 86-92 cm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 9
+      },
+      {
+        "id": 622,
+        "title": "24-36 mois / 92-98 cm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 10
+      },
+      {
+        "id": 623,
+        "title": "4 ans / 98-104 cm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 11
+      },
+      {
+        "id": 624,
+        "title": "5 ans / 104-110 cm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 12
+      },
+      {
+        "id": 625,
+        "title": "6 ans / 110-116 cm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 13
+      },
+      {
+        "id": 626,
+        "title": "7 ans / 116-122 cm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 14
+      },
+      {
+        "id": 627,
+        "title": "8 ans / 122-128 cm",
+        "is_default": 1,
+        "is_other": 0,
+        "order": 15
+      },
+      {
+        "id": 628,
+        "title": "9 ans / 128-134 cm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 16
+      },
+      {
+        "id": 629,
+        "title": "10 ans / 134-140 cm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 17
+      },
+      {
+        "id": 630,
+        "title": "11 ans / 140-146 cm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 18
+      },
+      {
+        "id": 631,
+        "title": "12 ans / 146-152 cm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 19
+      },
+      {
+        "id": 632,
+        "title": "13 ans / 152-158 cm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 20
+      },
+      {
+        "id": 633,
+        "title": "14 ans / 158-164 cm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 21
+      },
+      {
+        "id": 634,
+        "title": "15 ans / 164-170 cm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 22
+      },
+      {
+        "id": 635,
+        "title": "16 ans / 170-176 cm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 23
+      },
+      {
+        "id": 620,
+        "title": "Taille unique",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 24
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Tailles de chaussures pour enfants",
+    "size_ids": [
+      660,
+      659,
+      658,
+      657,
+      585,
+      586,
+      587,
+      588,
+      589,
+      590,
+      591,
+      592,
+      593,
+      594,
+      595,
+      596,
+      597,
+      598,
+      599,
+      600,
+      601,
+      602,
+      603,
+      604,
+      605,
+      606,
+      607,
+      608,
+      609
+    ],
+    "faq_entry_id": 512,
+    "sizes": [
+      {
+        "id": 660,
+        "title": "12",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 1
+      },
+      {
+        "id": 659,
+        "title": "13",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 2
+      },
+      {
+        "id": 658,
+        "title": "14",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 3
+      },
+      {
+        "id": 657,
+        "title": "15",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 4
+      },
+      {
+        "id": 585,
+        "title": "16",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 5
+      },
+      {
+        "id": 586,
+        "title": "17",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 6
+      },
+      {
+        "id": 587,
+        "title": "18",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 7
+      },
+      {
+        "id": 588,
+        "title": "19",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 8
+      },
+      {
+        "id": 589,
+        "title": "20",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 9
+      },
+      {
+        "id": 590,
+        "title": "21",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 10
+      },
+      {
+        "id": 591,
+        "title": "22",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 11
+      },
+      {
+        "id": 592,
+        "title": "23",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 12
+      },
+      {
+        "id": 593,
+        "title": "24",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 13
+      },
+      {
+        "id": 594,
+        "title": "25",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 14
+      },
+      {
+        "id": 595,
+        "title": "26",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 15
+      },
+      {
+        "id": 596,
+        "title": "27",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 16
+      },
+      {
+        "id": 597,
+        "title": "28",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 17
+      },
+      {
+        "id": 598,
+        "title": "29",
+        "is_default": 1,
+        "is_other": 0,
+        "order": 18
+      },
+      {
+        "id": 599,
+        "title": "30",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 19
+      },
+      {
+        "id": 600,
+        "title": "31",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 20
+      },
+      {
+        "id": 601,
+        "title": "32",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 21
+      },
+      {
+        "id": 602,
+        "title": "33",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 22
+      },
+      {
+        "id": 603,
+        "title": "34",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 23
+      },
+      {
+        "id": 604,
+        "title": "35",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 24
+      },
+      {
+        "id": 605,
+        "title": "36",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 25
+      },
+      {
+        "id": 606,
+        "title": "37",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 26
+      },
+      {
+        "id": 607,
+        "title": "38",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 27
+      },
+      {
+        "id": 608,
+        "title": "39",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 28
+      },
+      {
+        "id": 609,
+        "title": "40",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 29
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Tailles hommes",
+    "size_ids": [
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      308,
+      309,
+      1192,
+      1193,
+      1194
+    ],
+    "faq_entry_id": 515,
+    "sizes": [
+      {
+        "id": 206,
+        "title": "XS",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 1
+      },
+      {
+        "id": 207,
+        "title": "S",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 2
+      },
+      {
+        "id": 208,
+        "title": "M",
+        "is_default": 1,
+        "is_other": 0,
+        "order": 3
+      },
+      {
+        "id": 209,
+        "title": "L",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 4
+      },
+      {
+        "id": 210,
+        "title": "XL",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 5
+      },
+      {
+        "id": 211,
+        "title": "XXL",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 6
+      },
+      {
+        "id": 212,
+        "title": "XXXL",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 7
+      },
+      {
+        "id": 308,
+        "title": "4XL",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 8
+      },
+      {
+        "id": 309,
+        "title": "5XL",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 9
+      },
+      {
+        "id": 1192,
+        "title": "6XL",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 10
+      },
+      {
+        "id": 1193,
+        "title": "7XL",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 11
+      },
+      {
+        "id": 1194,
+        "title": "8XL",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 12
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Couches",
+    "size_ids": [
+      533,
+      534,
+      535,
+      536,
+      537,
+      538,
+      539,
+      540,
+      541
+    ],
+    "faq_entry_id": null,
+    "sizes": [
+      {
+        "id": 533,
+        "title": "jusqu'\u00e0 2 kg",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 1
+      },
+      {
+        "id": 534,
+        "title": "2-5 kg",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 2
+      },
+      {
+        "id": 535,
+        "title": "3-6kg",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 3
+      },
+      {
+        "id": 536,
+        "title": "4-9 kg",
+        "is_default": 1,
+        "is_other": 0,
+        "order": 4
+      },
+      {
+        "id": 537,
+        "title": "7-18 kg",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 5
+      },
+      {
+        "id": 538,
+        "title": "9-20 kg",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 6
+      },
+      {
+        "id": 539,
+        "title": "11-25 kg",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 7
+      },
+      {
+        "id": 540,
+        "title": "13-27 kg",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 8
+      },
+      {
+        "id": 541,
+        "title": "16 kg et +",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 9
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Si\u00e8ges auto b\u00e9b\u00e9",
+    "size_ids": [
+      542,
+      544,
+      547,
+      1188,
+      662
+    ],
+    "faq_entry_id": null,
+    "sizes": [
+      {
+        "id": 542,
+        "title": "0-13 kg",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 1
+      },
+      {
+        "id": 544,
+        "title": "9-18 kg",
+        "is_default": 1,
+        "is_other": 0,
+        "order": 2
+      },
+      {
+        "id": 547,
+        "title": "15-36 kg",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 3
+      },
+      {
+        "id": 1188,
+        "title": "22-36 kg",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 4
+      },
+      {
+        "id": 662,
+        "title": "Autre",
+        "is_default": 0,
+        "is_other": 1,
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "caption_code": 20,
+    "caption": "Age",
+    "description": "\u00c2ge enfant",
+    "size_ids": [
+      577,
+      565,
+      566,
+      567,
+      568,
+      569,
+      570,
+      571,
+      572,
+      1311,
+      573,
+      574,
+      575,
+      576
+    ],
+    "faq_entry_id": null,
+    "sizes": [
+      {
+        "id": 577,
+        "title": "Peu importe",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 1
+      },
+      {
+        "id": 565,
+        "title": "0 mois",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 2
+      },
+      {
+        "id": 566,
+        "title": "3 mois",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 3
+      },
+      {
+        "id": 567,
+        "title": "6 mois",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 4
+      },
+      {
+        "id": 568,
+        "title": "9 mois",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 5
+      },
+      {
+        "id": 569,
+        "title": "12 mois",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 6
+      },
+      {
+        "id": 570,
+        "title": "18 mois",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 7
+      },
+      {
+        "id": 571,
+        "title": "2 ans",
+        "is_default": 1,
+        "is_other": 0,
+        "order": 8
+      },
+      {
+        "id": 572,
+        "title": "3 ans",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 9
+      },
+      {
+        "id": 1311,
+        "title": "4 ans",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 10
+      },
+      {
+        "id": 573,
+        "title": "5 ans",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 11
+      },
+      {
+        "id": 574,
+        "title": "6 ans",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 12
+      },
+      {
+        "id": 575,
+        "title": "7 ans",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 13
+      },
+      {
+        "id": 576,
+        "title": "8 ans",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 14
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Ceintures de soutien maternit\u00e9",
+    "size_ids": [
+      578,
+      580,
+      581,
+      582,
+      583,
+      584,
+      664
+    ],
+    "faq_entry_id": null,
+    "sizes": [
+      {
+        "id": 578,
+        "title": "XS / 1 ",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 1
+      },
+      {
+        "id": 580,
+        "title": "S / 2 ",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 2
+      },
+      {
+        "id": 581,
+        "title": "M / 3",
+        "is_default": 1,
+        "is_other": 0,
+        "order": 3
+      },
+      {
+        "id": 582,
+        "title": "L / 4",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 4
+      },
+      {
+        "id": 583,
+        "title": "XL / 5",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 5
+      },
+      {
+        "id": 584,
+        "title": "XXL / 6",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 6
+      },
+      {
+        "id": 664,
+        "title": "Autre",
+        "is_default": 0,
+        "is_other": 1,
+        "order": 7
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Chaussures hommes",
+    "size_ids": [
+      776,
+      778,
+      780,
+      782,
+      784,
+      785,
+      786,
+      787,
+      788,
+      789,
+      790,
+      791,
+      792,
+      794,
+      1190,
+      1191
+    ],
+    "faq_entry_id": 511,
+    "sizes": [
+      {
+        "id": 776,
+        "title": "38",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 1
+      },
+      {
+        "id": 778,
+        "title": "39",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 2
+      },
+      {
+        "id": 780,
+        "title": "40",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 3
+      },
+      {
+        "id": 782,
+        "title": "41",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 4
+      },
+      {
+        "id": 784,
+        "title": "42",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 5
+      },
+      {
+        "id": 785,
+        "title": "42.5",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 6
+      },
+      {
+        "id": 786,
+        "title": "43",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 7
+      },
+      {
+        "id": 787,
+        "title": "43.5",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 8
+      },
+      {
+        "id": 788,
+        "title": "44",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 9
+      },
+      {
+        "id": 789,
+        "title": "44.5",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 10
+      },
+      {
+        "id": 790,
+        "title": "45",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 11
+      },
+      {
+        "id": 791,
+        "title": "45.5",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 12
+      },
+      {
+        "id": 792,
+        "title": "46",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 13
+      },
+      {
+        "id": 794,
+        "title": "47",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 14
+      },
+      {
+        "id": 1190,
+        "title": "48",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 15
+      },
+      {
+        "id": 1191,
+        "title": "49",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 16
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Chapeaux enfant",
+    "size_ids": [
+      928,
+      929,
+      930,
+      931,
+      932,
+      933,
+      934,
+      935,
+      936,
+      937,
+      1189
+    ],
+    "faq_entry_id": null,
+    "sizes": [
+      {
+        "id": 928,
+        "title": "Pr\u00e9matur\u00e9s, 30 cm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 1
+      },
+      {
+        "id": 929,
+        "title": "0-3 mois, 38 cm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 2
+      },
+      {
+        "id": 930,
+        "title": "3-6 mois, 42 cm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 3
+      },
+      {
+        "id": 931,
+        "title": "6-12 mois, 47 cm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 4
+      },
+      {
+        "id": 932,
+        "title": "1-2 ans, 49 cm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 5
+      },
+      {
+        "id": 933,
+        "title": "2-3 ans, 51 cm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 6
+      },
+      {
+        "id": 934,
+        "title": "3-5 ans, 53 cm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 7
+      },
+      {
+        "id": 935,
+        "title": "5-8 ans, 54 cm ",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 8
+      },
+      {
+        "id": 936,
+        "title": "8-12 ans, 56 cm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 9
+      },
+      {
+        "id": 937,
+        "title": "12 ans et plus > 56 cm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 10
+      },
+      {
+        "id": 1189,
+        "title": "Universel",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 11
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Bagues",
+    "size_ids": [
+      1202,
+      1203,
+      1204,
+      1205,
+      1206,
+      1207,
+      1208,
+      1209,
+      1210,
+      1211,
+      1212,
+      1213,
+      1214,
+      1215,
+      1216,
+      1217,
+      1218,
+      1219,
+      1220,
+      1221,
+      1222,
+      1223,
+      1224
+    ],
+    "faq_entry_id": 509,
+    "sizes": [
+      {
+        "id": 1202,
+        "title": "14.1 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 1
+      },
+      {
+        "id": 1203,
+        "title": "14.5 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 2
+      },
+      {
+        "id": 1204,
+        "title": "14.9 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 3
+      },
+      {
+        "id": 1205,
+        "title": "15.3 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 4
+      },
+      {
+        "id": 1206,
+        "title": "15.7 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 5
+      },
+      {
+        "id": 1207,
+        "title": "16.1 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 6
+      },
+      {
+        "id": 1208,
+        "title": "16.5 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 7
+      },
+      {
+        "id": 1209,
+        "title": "16.9 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 8
+      },
+      {
+        "id": 1210,
+        "title": "17.3 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 9
+      },
+      {
+        "id": 1211,
+        "title": "17.7 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 10
+      },
+      {
+        "id": 1212,
+        "title": "18.1 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 11
+      },
+      {
+        "id": 1213,
+        "title": "18.5 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 12
+      },
+      {
+        "id": 1214,
+        "title": "19 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 13
+      },
+      {
+        "id": 1215,
+        "title": "19.4 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 14
+      },
+      {
+        "id": 1216,
+        "title": "19.8 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 15
+      },
+      {
+        "id": 1217,
+        "title": "20.2 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 16
+      },
+      {
+        "id": 1218,
+        "title": "20.6 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 17
+      },
+      {
+        "id": 1219,
+        "title": "21 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 18
+      },
+      {
+        "id": 1220,
+        "title": "21.4 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 19
+      },
+      {
+        "id": 1221,
+        "title": "21.8 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 20
+      },
+      {
+        "id": 1222,
+        "title": "22.2 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 21
+      },
+      {
+        "id": 1223,
+        "title": "22.6 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 22
+      },
+      {
+        "id": 1224,
+        "title": "Ajustable",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 23
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Soutiens-gorge",
+    "size_ids": [
+      1247,
+      1248,
+      1249,
+      1250,
+      1251,
+      1252,
+      1253,
+      1254,
+      1255,
+      1256,
+      1257,
+      1258,
+      1259,
+      1260,
+      1261,
+      1262,
+      1263,
+      1264,
+      1265,
+      1266,
+      1267,
+      1268,
+      1269,
+      1270,
+      1271,
+      1272,
+      1273,
+      1274,
+      1275,
+      1276,
+      1277,
+      1278,
+      1279,
+      1280,
+      1281,
+      1282,
+      1283,
+      1284,
+      1285,
+      1286,
+      1287,
+      1288,
+      1289,
+      1290,
+      1291,
+      1292,
+      1293,
+      1294,
+      1295,
+      1296,
+      1297,
+      1298,
+      1299,
+      1300,
+      1301,
+      1302,
+      1303,
+      1304,
+      1305,
+      1306,
+      1307,
+      1308,
+      1309,
+      1310
+    ],
+    "faq_entry_id": 508,
+    "sizes": [
+      {
+        "id": 1247,
+        "title": "80A & AA",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 1
+      },
+      {
+        "id": 1248,
+        "title": "80B",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 2
+      },
+      {
+        "id": 1249,
+        "title": "80C",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 3
+      },
+      {
+        "id": 1250,
+        "title": "80D",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 4
+      },
+      {
+        "id": 1251,
+        "title": "80E",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 5
+      },
+      {
+        "id": 1252,
+        "title": "80F",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 6
+      },
+      {
+        "id": 1253,
+        "title": "85A & AA",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 7
+      },
+      {
+        "id": 1254,
+        "title": "85B",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 8
+      },
+      {
+        "id": 1255,
+        "title": "85C",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 9
+      },
+      {
+        "id": 1256,
+        "title": "85D",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 10
+      },
+      {
+        "id": 1257,
+        "title": "85E",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 11
+      },
+      {
+        "id": 1258,
+        "title": "85F",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 12
+      },
+      {
+        "id": 1259,
+        "title": "90A & AA",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 13
+      },
+      {
+        "id": 1260,
+        "title": "90B",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 14
+      },
+      {
+        "id": 1261,
+        "title": "90C",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 15
+      },
+      {
+        "id": 1262,
+        "title": "90D",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 16
+      },
+      {
+        "id": 1263,
+        "title": "90E",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 17
+      },
+      {
+        "id": 1264,
+        "title": "90F",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 18
+      },
+      {
+        "id": 1265,
+        "title": "95A & AA",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 19
+      },
+      {
+        "id": 1266,
+        "title": "95B",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 20
+      },
+      {
+        "id": 1267,
+        "title": "95C",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 21
+      },
+      {
+        "id": 1268,
+        "title": "95D",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 22
+      },
+      {
+        "id": 1269,
+        "title": "95E",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 23
+      },
+      {
+        "id": 1270,
+        "title": "95F",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 24
+      },
+      {
+        "id": 1271,
+        "title": "95G",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 25
+      },
+      {
+        "id": 1272,
+        "title": "95H",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 26
+      },
+      {
+        "id": 1273,
+        "title": "95J",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 27
+      },
+      {
+        "id": 1274,
+        "title": "100A & AA",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 28
+      },
+      {
+        "id": 1275,
+        "title": "100B",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 29
+      },
+      {
+        "id": 1276,
+        "title": "100C",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 30
+      },
+      {
+        "id": 1277,
+        "title": "100D",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 31
+      },
+      {
+        "id": 1278,
+        "title": "100E",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 32
+      },
+      {
+        "id": 1279,
+        "title": "100F",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 33
+      },
+      {
+        "id": 1280,
+        "title": "100G",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 34
+      },
+      {
+        "id": 1281,
+        "title": "100H",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 35
+      },
+      {
+        "id": 1282,
+        "title": "100J",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 36
+      },
+      {
+        "id": 1283,
+        "title": "105A & AA",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 37
+      },
+      {
+        "id": 1284,
+        "title": "105B",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 38
+      },
+      {
+        "id": 1285,
+        "title": "105C",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 39
+      },
+      {
+        "id": 1286,
+        "title": "105D",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 40
+      },
+      {
+        "id": 1287,
+        "title": "105E",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 41
+      },
+      {
+        "id": 1288,
+        "title": "105F",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 42
+      },
+      {
+        "id": 1289,
+        "title": "106G",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 43
+      },
+      {
+        "id": 1290,
+        "title": "105H",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 44
+      },
+      {
+        "id": 1291,
+        "title": "105J",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 45
+      },
+      {
+        "id": 1292,
+        "title": "110A & AA",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 46
+      },
+      {
+        "id": 1293,
+        "title": "110B",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 47
+      },
+      {
+        "id": 1294,
+        "title": "110C",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 48
+      },
+      {
+        "id": 1295,
+        "title": "110D",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 49
+      },
+      {
+        "id": 1296,
+        "title": "110E",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 50
+      },
+      {
+        "id": 1297,
+        "title": "110F",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 51
+      },
+      {
+        "id": 1298,
+        "title": "110G",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 52
+      },
+      {
+        "id": 1299,
+        "title": "110H",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 53
+      },
+      {
+        "id": 1300,
+        "title": "110J",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 54
+      },
+      {
+        "id": 1301,
+        "title": "115A & AA",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 55
+      },
+      {
+        "id": 1302,
+        "title": "115B",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 56
+      },
+      {
+        "id": 1303,
+        "title": "115C",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 57
+      },
+      {
+        "id": 1304,
+        "title": "115D",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 58
+      },
+      {
+        "id": 1305,
+        "title": "115E",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 59
+      },
+      {
+        "id": 1306,
+        "title": "115F",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 60
+      },
+      {
+        "id": 1307,
+        "title": "115G",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 61
+      },
+      {
+        "id": 1308,
+        "title": "115H",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 62
+      },
+      {
+        "id": 1309,
+        "title": "115J",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 63
+      },
+      {
+        "id": 1310,
+        "title": "Autre",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 64
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Women items in babies portal",
+    "size_ids": [],
+    "faq_entry_id": 506,
+    "sizes": []
+  },
+  {
+    "id": 55,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Literie",
+    "size_ids": [
+      1312,
+      1313,
+      1314,
+      1315
+    ],
+    "faq_entry_id": null,
+    "sizes": [
+      {
+        "id": 1312,
+        "title": "Simple (70\u2013100cm x 190\u2013200cm)",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 1
+      },
+      {
+        "id": 1313,
+        "title": "Double (135\u2013140 cm x 190\u2013200 cm)",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 2
+      },
+      {
+        "id": 1314,
+        "title": "Queen Size (150\u2013180 cm x 190\u2013200 cm)",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 3
+      },
+      {
+        "id": 1315,
+        "title": "King Size (180\u2013200cm x 200cm)",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 4
+      }
+    ]
+  }
+]

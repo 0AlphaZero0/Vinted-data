@@ -1,0 +1,183 @@
+[
+  {
+    "id": 3,
+    "title": "D\u00e9coration",
+    "code": "m_decor",
+    "materials": [
+      {
+        "id": 15,
+        "title": "C\u00e9ramique",
+        "code": "a_ceramic"
+      },
+      {
+        "id": 16,
+        "title": "Coton",
+        "code": "a_cotton"
+      },
+      {
+        "id": 17,
+        "title": "Verre",
+        "code": "a_glass"
+      },
+      {
+        "id": 6,
+        "title": "M\u00e9tal",
+        "code": "d_metal"
+      },
+      {
+        "id": 18,
+        "title": "Plastique",
+        "code": "a_plastic"
+      },
+      {
+        "id": 19,
+        "title": "Polyester",
+        "code": "a_polyester"
+      },
+      {
+        "id": 20,
+        "title": "Porcelaine",
+        "code": "a_porcelain"
+      },
+      {
+        "id": 21,
+        "title": "Osier, Jute",
+        "code": "a_seagrass"
+      },
+      {
+        "id": 22,
+        "title": "Pierre",
+        "code": "a_stone"
+      },
+      {
+        "id": 23,
+        "title": "Bois, Bambou",
+        "code": "a_wood"
+      },
+      {
+        "id": 24,
+        "title": "Autre mat\u00e9riel",
+        "code": "a_other"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Accessoires de table",
+    "code": "m_dining",
+    "materials": [
+      {
+        "id": 4,
+        "title": "C\u00e9ramique",
+        "code": "d_ceramic"
+      },
+      {
+        "id": 5,
+        "title": "Verre",
+        "code": "d_glass"
+      },
+      {
+        "id": 9,
+        "title": "Plastique",
+        "code": "d_plastic"
+      },
+      {
+        "id": 13,
+        "title": "Porcelaine",
+        "code": "d_porcelain"
+      },
+      {
+        "id": 14,
+        "title": "Argent",
+        "code": "d_silver"
+      },
+      {
+        "id": 8,
+        "title": "Acier inoxydable",
+        "code": "d_steel"
+      },
+      {
+        "id": 12,
+        "title": "Pierre",
+        "code": "d_stone"
+      },
+      {
+        "id": 10,
+        "title": "Bois",
+        "code": "d_wood"
+      },
+      {
+        "id": 11,
+        "title": "Autre mat\u00e9riel",
+        "code": "d_other"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Textiles",
+    "code": "m_textile",
+    "materials": [
+      {
+        "id": 25,
+        "title": "Acrylique",
+        "code": "t_acrylic"
+      },
+      {
+        "id": 26,
+        "title": "Bambou, Jute",
+        "code": "t_bamboo"
+      },
+      {
+        "id": 27,
+        "title": "Mousseline",
+        "code": "t_chiffon"
+      },
+      {
+        "id": 1,
+        "title": "Coton",
+        "code": "t_cotton"
+      },
+      {
+        "id": 2,
+        "title": "Lin",
+        "code": "t_linen"
+      },
+      {
+        "id": 28,
+        "title": "Polyamide, Nylon",
+        "code": "t_polyamide"
+      },
+      {
+        "id": 29,
+        "title": "Polyester",
+        "code": "t_ polyester"
+      },
+      {
+        "id": 30,
+        "title": "Satin",
+        "code": "t_satin"
+      },
+      {
+        "id": 31,
+        "title": "Soie",
+        "code": "t_silk"
+      },
+      {
+        "id": 32,
+        "title": "Viscose",
+        "code": "t_viscose"
+      },
+      {
+        "id": 3,
+        "title": "Laine",
+        "code": "t_wool"
+      },
+      {
+        "id": 33,
+        "title": "Autre mat\u00e9riel ",
+        "code": "t_other"
+      }
+    ]
+  }
+]

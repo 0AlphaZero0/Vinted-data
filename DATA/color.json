@@ -1,0 +1,198 @@
+[
+  {
+    "id": 1,
+    "title": "Noir",
+    "hex": "#000000",
+    "order": 1,
+    "code": "BLACK"
+  },
+  {
+    "id": 3,
+    "title": "Gris",
+    "hex": "#919191",
+    "order": 2,
+    "code": "GREY"
+  },
+  {
+    "id": 12,
+    "title": "Blanc",
+    "hex": "#FFFFFF",
+    "order": 3,
+    "code": "WHITE"
+  },
+  {
+    "id": 20,
+    "title": "Cr\u00e8me",
+    "hex": "#F8F8E1",
+    "order": 4,
+    "code": "CREAM"
+  },
+  {
+    "id": 4,
+    "title": "Beige ",
+    "hex": "#f4e0c8",
+    "order": 5,
+    "code": "BODY"
+  },
+  {
+    "id": 21,
+    "title": "Abricot",
+    "hex": "#FFCC98",
+    "order": 6,
+    "code": "APRICOT"
+  },
+  {
+    "id": 11,
+    "title": "Orange",
+    "hex": "#FFA500",
+    "order": 7,
+    "code": "ORANGE"
+  },
+  {
+    "id": 22,
+    "title": "Corail",
+    "hex": "#FE7F5D",
+    "order": 8,
+    "code": "CORAL"
+  },
+  {
+    "id": 7,
+    "title": "Rouge",
+    "hex": "#CC3300",
+    "order": 9,
+    "code": "RED"
+  },
+  {
+    "id": 23,
+    "title": "Bordeaux",
+    "hex": "#AE2E3D",
+    "order": 10,
+    "code": "BURGUNDY"
+  },
+  {
+    "id": 5,
+    "title": "Rose",
+    "hex": "#ff0080",
+    "order": 11,
+    "code": "PINK"
+  },
+  {
+    "id": 24,
+    "title": "Rose",
+    "hex": "#FFCCCA",
+    "order": 12,
+    "code": "ROSE"
+  },
+  {
+    "id": 6,
+    "title": "Violet",
+    "hex": "#800080",
+    "order": 13,
+    "code": "PURPLE"
+  },
+  {
+    "id": 25,
+    "title": "Lila",
+    "hex": "#D297D2",
+    "order": 14,
+    "code": "LILAC"
+  },
+  {
+    "id": 26,
+    "title": "Bleu clair",
+    "hex": "#89CFF0",
+    "order": 15,
+    "code": "LIGHT-BLUE"
+  },
+  {
+    "id": 9,
+    "title": "Bleu",
+    "hex": "#007bc4",
+    "order": 16,
+    "code": "BLUE"
+  },
+  {
+    "id": 27,
+    "title": "Marine",
+    "hex": "#35358D",
+    "order": 17,
+    "code": "NAVY"
+  },
+  {
+    "id": 17,
+    "title": "Turquoise",
+    "hex": "#B7DEE8",
+    "order": 18,
+    "code": "TURQUOISE"
+  },
+  {
+    "id": 30,
+    "title": "Menthe",
+    "hex": "#A2FFBC",
+    "order": 19,
+    "code": "MINT"
+  },
+  {
+    "id": 10,
+    "title": "Vert",
+    "hex": "#369a3d",
+    "order": 20,
+    "code": "GREEN"
+  },
+  {
+    "id": 28,
+    "title": "Vert fonc\u00e9",
+    "hex": "#356639",
+    "order": 21,
+    "code": "DARK-GREEN"
+  },
+  {
+    "id": 16,
+    "title": "Kaki",
+    "hex": "#86814A",
+    "order": 22,
+    "code": "KHAKI"
+  },
+  {
+    "id": 2,
+    "title": "Marron",
+    "hex": "#663300",
+    "order": 23,
+    "code": "BROWN"
+  },
+  {
+    "id": 29,
+    "title": "Moutarde",
+    "hex": "#E5B539",
+    "order": 24,
+    "code": "MUSTARD"
+  },
+  {
+    "id": 8,
+    "title": "Jaune",
+    "hex": "#fff200",
+    "order": 25,
+    "code": "YELLOW"
+  },
+  {
+    "id": 13,
+    "title": "Argent\u00e9",
+    "hex": "#dddddd",
+    "order": 26,
+    "code": "SILVER"
+  },
+  {
+    "id": 14,
+    "title": "Dor\u00e9",
+    "hex": "#be9927",
+    "order": 27,
+    "code": "GOLD"
+  },
+  {
+    "id": 15,
+    "title": "Multicolore",
+    "hex": "#",
+    "order": 28,
+    "code": "VARIOUS"
+  }
+]
