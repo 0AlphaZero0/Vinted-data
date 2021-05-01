@@ -27,8 +27,6 @@ sheet_Articles = spreadsheet.worksheet("Articles")
 sheet_Chiffres = spreadsheet.worksheet("Chiffres")
 
 
-
-
 def updateVintedSheets(reload_data=False):
 
     def unPack_Catalogs(json_f):
@@ -146,4 +144,4 @@ def updateVintedSheets(reload_data=False):
 
 
 if __name__ == '__main__':
-    updateVintedSheets()
+    updateVintedSheets(reload_data=True)
