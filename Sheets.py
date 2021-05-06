@@ -144,4 +144,4 @@ def updateVintedSheets(reload_data=False):
 
 
 if __name__ == '__main__':
-    updateVintedSheets(reload_data=False)
+    updateVintedSheets(reload_data=True)
