@@ -24,7 +24,7 @@ Vinted data can be visualized in Google Sheets <a href="https://docs.google.com/
 
 Currently the _BRAND ID_ is the one that take the most time to collect, as I didn't found a query to get all IDs with only one requests or just a few. Currently, data collection for this identifier is done with a query for each brand (more than 2.000 brands currently).
 
-Currently I investigate the [Vinted API](https://www.vinted.fr/api/v2/) to find a better solution than scraping the HTML
+Currently I investigate the [Vinted API](https://www.vinted.fr/api/v2/) to find a better solution than scraping the HTML.
 
 
 ## Vinted search
