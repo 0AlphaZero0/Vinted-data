@@ -91,7 +91,7 @@
     "path": "/brand/hm",
     "requires_authenticity_check": false,
     "is_luxury": false,
-    "url": "https://www.vinted.be/brand/hm",
+    "url": "https://www.vinted.fr/brand/hm",
     "is_favourite": false,
     "is_hated": false
   },
@@ -123,7 +123,7 @@
     "path": "/brand/levis",
     "requires_authenticity_check": true,
     "is_luxury": true,
-    "url": "https://www.vinted.be/brand/levis",
+    "url": "https://www.vinted.fr/brand/levis",
     "is_favourite": false,
     "is_hated": false
   },
@@ -155,7 +155,7 @@
     "path": "/brand/zara",
     "requires_authenticity_check": false,
     "is_luxury": false,
-    "url": "https://www.vinted.be/brand/zara",
+    "url": "https://www.vinted.fr/brand/zara",
     "is_favourite": false,
     "is_hated": false
   },
@@ -187,7 +187,7 @@
     "path": "/brand/adidas",
     "requires_authenticity_check": true,
     "is_luxury": true,
-    "url": "https://www.vinted.be/brand/adidas",
+    "url": "https://www.vinted.fr/brand/adidas",
     "is_favourite": false,
     "is_hated": false
   },
@@ -203,7 +203,7 @@
     "path": "/brand/mango",
     "requires_authenticity_check": false,
     "is_luxury": false,
-    "url": "https://www.vinted.be/brand/mango",
+    "url": "https://www.vinted.fr/brand/mango",
     "is_favourite": false,
     "is_hated": false
   },
@@ -267,7 +267,7 @@
     "path": "/brand/guess",
     "requires_authenticity_check": true,
     "is_luxury": true,
-    "url": "https://www.vinted.be/brand/guess",
+    "url": "https://www.vinted.fr/brand/guess",
     "is_favourite": false,
     "is_hated": false
   },
@@ -683,7 +683,7 @@
     "path": "/brand/nike",
     "requires_authenticity_check": true,
     "is_luxury": true,
-    "url": "https://www.vinted.be/brand/nike",
+    "url": "https://www.vinted.fr/brand/nike",
     "is_favourite": false,
     "is_hated": false
   },
@@ -1019,7 +1019,7 @@
     "path": "/brand/ralph-lauren",
     "requires_authenticity_check": true,
     "is_luxury": true,
-    "url": "https://www.vinted.be/brand/ralph-lauren",
+    "url": "https://www.vinted.fr/brand/ralph-lauren",
     "is_favourite": false,
     "is_hated": false
   },
@@ -1099,7 +1099,7 @@
     "path": "/brand/tommy-hilfiger",
     "requires_authenticity_check": true,
     "is_luxury": true,
-    "url": "https://www.vinted.be/brand/tommy-hilfiger",
+    "url": "https://www.vinted.fr/brand/tommy-hilfiger",
     "is_favourite": false,
     "is_hated": false
   },
@@ -2907,7 +2907,7 @@
     "path": "/brand/calvin-klein",
     "requires_authenticity_check": true,
     "is_luxury": true,
-    "url": "https://www.vinted.be/brand/calvin-klein",
+    "url": "https://www.vinted.fr/brand/calvin-klein",
     "is_favourite": false,
     "is_hated": false
   },
@@ -25147,7 +25147,7 @@
     "path": "/brand/michael-kors",
     "requires_authenticity_check": true,
     "is_luxury": true,
-    "url": "https://www.vinted.fr/brand/michael-kors",
+    "url": "https://www.vinted.be/brand/michael-kors",
     "is_favourite": false,
     "is_hated": false
   },
@@ -29932,22 +29932,6 @@
     "requires_authenticity_check": false,
     "is_luxury": false,
     "url": "https://www.vinted.fr/brand/national-liberty",
-    "is_favourite": false,
-    "is_hated": false
-  },
-  {
-    "id": 8095,
-    "title": "New Play",
-    "slug": "new-play",
-    "favourite_count": 11,
-    "pretty_favourite_count": "15",
-    "item_count": 1146,
-    "pretty_item_count": "1.1K",
-    "is_visible_in_listings": false,
-    "path": "/brand/new-play",
-    "requires_authenticity_check": false,
-    "is_luxury": false,
-    "url": "https://www.vinted.fr/brand/new-play",
     "is_favourite": false,
     "is_hated": false
   },
