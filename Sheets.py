@@ -28,10 +28,45 @@ sheet_Chiffres = spreadsheet.worksheet("Chiffres")
 
 
 def updateVintedSheets(reload_data=False):
+    """
+    This function will update the Google spreadsheets containing all of the data found within Vinted.fr temporarly stored in ./DATA/
+
+    Parameters
+    ----------
+    reload_data : BOOLEAN, optional
+        This parameter indicate if the alogrithm need to collect Vinted data before updating the sheets.
+    
+    Returns
+    -------
+    None.
+
+    """
+
 
     def unPack_Catalogs(json_f):
+        """
+        This function will return a flatten JSON normalized as a pandas array from the JSON object within the json file (json_f). Thus an embbed JSON will be flatten to a single level layer.
+        Catalogs within Vinted are embedded, for example there is a Catalog Accessories corresponding to Men and one for Women and within those Accessories catalogs are mutliple sub-catalogs such as Jewels, etc.
+        This function will bring all sub-catalogs and parents catalogs to the same level.
+
+        Parameters
+        ----------
+        json_f : FILE OBJECT
+            The JSON file in which the Catalogs data are stored.
+        
+        Returns
+        -------
+        None.
+
+        """
+
 
         def recursive_Catalog(json_obj):
+            """
+            This function wil flaten the JSON object provided as parameter, each field containing a list or dictionary will be deleted.
+            Catalogs within Vinted are embedded, for example there is a Catalog Accessories corresponding to Men and one for Women and within those Accessories catalogs are mutliple sub-catalogs such as Jewels, etc.
+            This function will bring all sub-catalogs and parents catalogs to the same level.
+            """
             field_lists = ["photo","material_group_ids","size_group_ids","package_size_ids"]
             DATA = []     
             for catalog in json_obj:
