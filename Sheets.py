@@ -47,7 +47,7 @@ def updateVintedSheets(reload_data=False):
         """
         This function will return a flatten JSON normalized as a pandas array from the JSON object within the json file (json_f). Thus an embbed JSON will be flatten to a single level layer.
         Catalogs within Vinted are embedded, for example there is a Catalog Accessories corresponding to Men and one for Women and within those Accessories catalogs are mutliple sub-catalogs such as Jewels, etc.
-        This function will bring all sub-catalogs and parents catalogs to the same level.
+        This function will bring all sub-catalogs and parents catalogs to the same level. Some fields containing a list of ids will also be removed or url to photos.
 
         Parameters
         ----------
@@ -56,16 +56,26 @@ def updateVintedSheets(reload_data=False):
         
         Returns
         -------
-        None.
+        DATA : A pandas DataFrame.
 
         """
 
 
         def recursive_Catalog(json_obj):
             """
-            This function wil flaten the JSON object provided as parameter, each field containing a list or dictionary will be deleted.
+            This function wil flaten the JSON object provided as parameter, some fields will be deleted based on / field_lists.
             Catalogs within Vinted are embedded, for example there is a Catalog Accessories corresponding to Men and one for Women and within those Accessories catalogs are mutliple sub-catalogs such as Jewels, etc.
             This function will bring all sub-catalogs and parents catalogs to the same level.
+
+            Parameters
+            ----------
+            json_obj : JSON OBJECT
+                The JSON object corresponding to the Catalogs found within Vinted.
+            
+            Returns
+            -------
+            DATA : LIST
+                A list of dictionaries,corresponding of all catalogs brought to the same level.
             """
             field_lists = ["photo","material_group_ids","size_group_ids","package_size_ids"]
             DATA = []     
@@ -85,6 +95,19 @@ def updateVintedSheets(reload_data=False):
         return DATA
 
     def unPack_Materials(json_f):
+        """
+        This function will return a flatten JSON normalized as a pandas array from the JSON object within the json file (json_f). Thus an embbed JSON will be flatten to a single level layer.
+        Materials within Vinted are embedded, this function will bring all sub-materials and parents materials to the same level.
+
+        Parameters
+        ----------
+        json_f : FILE OBJECT
+            The JSON object corresponding to the Catalogs found within Vinted.
+        
+        Returns
+        -------
+        DATA : A pandas DataFrame, a list of dictionaries corresponding to all materials found within Vinted.
+        """
         json_f = json.load(json_f)
         DATA = []
         for material in json_f:
@@ -99,6 +122,19 @@ def updateVintedSheets(reload_data=False):
         return DATA
 
     def unPack_Sizes(json_f):
+        """
+        This function will return a flatten JSON normalized as a pandas array from the JSON object within the json file (json_f). Thus an embbed JSON will be flatten to a single level layer.
+        Sizes within Vinted are embedded, this function will bring all sub-materials and parents materials to the same level. Some fields containing a list of ids will also be removed.
+
+        Parameters
+        ----------
+        json_f : FILE OBJECT
+            The JSON object corresponding to the Sizes found within Vinted.
+        
+        Returns
+        -------
+        DATA : A pandas DataFrame, a list of dictionaries corresponding to all sizes found within Vinted.
+        """
         json_f = json.load(json_f)
         field_lists = [
             "size_ids"]
@@ -120,6 +156,19 @@ def updateVintedSheets(reload_data=False):
         return DATA
 
     def unPack_Countries(json_f):
+        """
+        This function will return a flatten JSON normalized as a pandas array from the JSON object within the json file (json_f). Thus an embbed JSON will be flatten to a single level layer.
+        Materials within Vinted are embedded, this function will bring all sub-materials and parents materials to the same level.
+
+        Parameters
+        ----------
+        json_f : FILE OBJECT
+            The JSON object corresponding to the Catalogs found within Vinted.
+        
+        Returns
+        -------
+        DATA : A pandas DataFrame, a list of dictionaries corresponding to all materials found within Vinted.
+        """
         json_f = json.load(json_f)
         field_lists = ["postal_code_constraints"]
         for item in json_f:
@@ -129,6 +178,18 @@ def updateVintedSheets(reload_data=False):
         return pd.json_normalize(json_f)
 
     def readJSON(json_f):
+        """
+        This function will return a pandas dataframe from the JSON File provided (json_f).
+
+        Parameters
+        ----------
+        json_f : FILE OBJECT
+            The JSON object corresponding to the Catalogs found within Vinted.
+        
+        Returns
+        -------
+        pd.read_json(json_f) : A pandas DataFrame.
+        """
         return pd.read_json(json_f)
 
     id_files = {
