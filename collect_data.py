@@ -11,6 +11,7 @@ import re
 
 api_url = "https://www.vinted.fr/api/v2/items?search_text=&catalog_ids=&color_ids=&brand_ids=&size_ids=&material_ids=&status_ids=&country_ids=&city_ids=&is_for_swap=0&page=1&per_page="
 url = "https://www.vinted.fr/vetements?search_text=&brand_id[]=&color_id[]="
+data_repository = "./DATA/"
 
 
 def JSONfromID(id_names=["catalog","color","brand","size","material","status","country"],id_range=range(0,100),per_page=24,save=False,empty_ids=False):
@@ -263,6 +264,26 @@ def JSONfromID(id_names=["catalog","color","brand","size","material","status","c
     return collected_data
 
 def searchVinted(searchText="",catalog=[],color=[],brand=[],size=[],material=[],status=[],country=[],per_page=110,page=1):
+
+    def matchingColors(colors=color):
+        """
+        """
+        IDs_requested = []
+        with open(data_repository+"color.json") as color_f:
+            known_colors = json.loads(color_f)
+        for color in colors:
+            if isinstance(color,int) or isinstance(color,str):
+                try:
+                    id = int(color)
+                    IDs_requested.append(id)
+                except ValueError:
+                    pass
+            else:
+                raise f"ID : {color} does not correspond to a string or an integer color within Vinted, please check the following colors :\n{colors}"
+        
+
+
+
     params = locals()
     url_search = "https://www.vinted.fr/vetements?search_text="+searchText
     del params["searchText"],params["per_page"],params["page"]
