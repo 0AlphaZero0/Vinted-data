@@ -265,22 +265,30 @@ def JSONfromID(id_names=["catalog","color","brand","size","material","status","c
 
 def searchVinted(searchText="",catalog=[],color=[],brand=[],size=[],material=[],status=[],country=[],per_page=110,page=1):
 
-    def matchingColors(colors=color):
+    def matchingIDs(IDs,file):
         """
         """
         IDs_requested = []
-        with open(data_repository+"color.json") as color_f:
-            known_colors = json.loads(color_f)
-        for color in colors:
-            if isinstance(color,int) or isinstance(color,str):
+        field = file.split(".")[0]
+        with open(data_repository+file) as id_f:
+            known_IDs = json.loads(id_f)
+        for i in IDs:
+            if isinstance(i,int) or isinstance(i,str):
                 try:
-                    id = int(color)
+                    id = int(i)
                     IDs_requested.append(id)
                 except ValueError:
-                    pass
+                    found = False
+                    for known_id in known_IDs:
+                        if known_id["title"].lower() == i.lower() or known_id["code"].lower() == i.lower() or known_id["slug"].lower() == i.lower():
+                            IDs_requested.append(known_id["id"])
+                            found = True
+                            break
+                    if not found:
+                        raise f"ID : {i} does not correspond to a string or an integer {field} within Vinted, please check the following {field}s :\n{IDs}"
             else:
-                raise f"ID : {color} does not correspond to a string or an integer color within Vinted, please check the following colors :\n{colors}"
-        
+                raise f"ID : {i} does not correspond to a string or an integer {field} within Vinted, please check the following {field}s :\n{IDs}"
+        return IDs_requested
 
 
 
@@ -289,6 +297,7 @@ def searchVinted(searchText="",catalog=[],color=[],brand=[],size=[],material=[],
     del params["searchText"],params["per_page"],params["page"]
     for param in params:
         if len(params[param]) != 0:
+
             for param_id in params[param]:
                 url_search = url_search+"&"+param+"_id[]="+str(param_id)
     url_search = url_search+"&per_page="+str(per_page)+"&page="+str(page)
