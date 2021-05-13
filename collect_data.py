@@ -16,26 +16,33 @@ data_repository = "./DATA/"
 id_supported = {
     "catalog":{
         "regex":r"\"catalogFilters\":{\"dtos\":{\"catalogs\":(.*),\"colors",
-        "nested":"catalogs"
+        "nested":"catalogs",
+        "names":["title","code"]
         },
     "color":{
         "regex":r"\"colors\":(.*),\"statuses",
+        "names":["title","code"]
         },
     "brand":{
+        "names":["title","slug"]
         },
     "size":{
         "regex":r"\"sizeGroups\":(.*),\"materialGroups",
-        "nested":"sizes"
+        "nested":"sizes",
+        "names":["title"]
         },
     "material":{
         "regex":r"\"materialGroups\":(.*),\"countries",
-        "nested":"materials"
+        "nested":"materials",
+        "names":["title","code"]
         },
     "status":{
-        "regex":r"\"statuses\":(.*),\"brands"
+        "regex":r"\"statuses\":(.*),\"brands",
+        "names":["title"]
         },
     "country":{
-        "regex":r"\"countries\":(.*),\"cities"
+        "regex":r"\"countries\":(.*),\"cities",
+        "names":["title","title_local","iso_code"]
         }
     }
 
@@ -248,7 +255,7 @@ def JSONfromID(id_names=["catalog","color","brand","size","material","status","c
     id_supported["brand"]["function"] = brandIds
 
     for i in id_supported:
-        if "regex" in i:
+        if "regex" in id_supported[i]:
             id_supported[i]["function"] = regexMatching
 
 
@@ -269,12 +276,27 @@ def JSONfromID(id_names=["catalog","color","brand","size","material","status","c
 
 def searchVinted(searchText="",catalog=[],color=[],brand=[],size=[],material=[],status=[],country=[],per_page=110,page=1):
 
-    def matchingIDs(IDs):
+    def matchingIDs(ID_name,IDs):
         """
         """
-        check_fields = ["title","code","slug","title_local","iso_code"]
+
         IDs_requested = []
 
+        # Checking parameters
+        if ID_name not in id_supported:
+            raise f"{str(ID_name)} not supported please check the following supported IDs {' / '.join(id_supported)}"
+        if not isinstance(IDs,list):
+            if isinstance(IDs,str):
+                IDs = [IDs]
+            else:
+                raise f"{str(IDs)} must be a string or a list."
+
+        # Loading corresponding data
+        with open(file=data_repository+ID_name+".json",mode="r") as f:
+            data = json.loads(f)
+
+        for ID_requested in IDs_requested:
+            pass
 
 
 
