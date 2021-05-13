@@ -13,6 +13,33 @@ api_url = "https://www.vinted.fr/api/v2/items?search_text=&catalog_ids=&color_id
 url = "https://www.vinted.fr/vetements?search_text=&brand_id[]=&color_id[]="
 data_repository = "./DATA/"
 
+id_supported = {
+    "catalog":{
+        "regex":r"\"catalogFilters\":{\"dtos\":{\"catalogs\":(.*),\"colors",
+        "nested":"catalogs"
+        },
+    "color":{
+        "regex":r"\"colors\":(.*),\"statuses",
+        },
+    "brand":{
+        },
+    "size":{
+        "regex":r"\"sizeGroups\":(.*),\"materialGroups",
+        "nested":"sizes"
+        },
+    "material":{
+        "regex":r"\"materialGroups\":(.*),\"countries",
+        "nested":"materials"
+        },
+    "status":{
+        "regex":r"\"statuses\":(.*),\"brands"
+        },
+    "country":{
+        "regex":r"\"countries\":(.*),\"cities"
+        }
+    }
+
+
 
 def JSONfromID(id_names=["catalog","color","brand","size","material","status","country"],id_range=range(0,100),per_page=24,save=False,empty_ids=False):
     """
@@ -216,36 +243,13 @@ def JSONfromID(id_names=["catalog","color","brand","size","material","status","c
             color["hex"] = "#"+color["hex"]
         return id_DATA
     
-    id_supported = {
-        "catalog":{
-            "function":regexMatching,
-            "regex":r"\"catalogFilters\":{\"dtos\":{\"catalogs\":(.*),\"colors"
-            },
-        "color":{
-            "function":regexMatching,
-            "regex":r"\"colors\":(.*),\"statuses",
-            "modification":colorModification
-            },
-        "brand":{
-            "function":brandIds
-            },
-        "size":{
-            "function":regexMatching,
-            "regex":r"\"sizeGroups\":(.*),\"materialGroups"
-            },
-        "material":{
-            "function":regexMatching,
-            "regex":r"\"materialGroups\":(.*),\"countries"
-            },
-        "status":{
-            "function":regexMatching,
-            "regex":r"\"statuses\":(.*),\"brands"
-            },
-        "country":{
-            "function":regexMatching,
-            "regex":r"\"countries\":(.*),\"cities"
-            }
-        }
+
+    id_supported["color"]["modification"] = colorModification
+    id_supported["brand"]["function"] = brandIds
+
+    for i in id_supported:
+        if "regex" in i:
+            id_supported[i]["function"] = regexMatching
 
 
     id_names = params(id_supported)
@@ -265,30 +269,49 @@ def JSONfromID(id_names=["catalog","color","brand","size","material","status","c
 
 def searchVinted(searchText="",catalog=[],color=[],brand=[],size=[],material=[],status=[],country=[],per_page=110,page=1):
 
-    def matchingIDs(IDs,file):
+    def matchingIDs(IDs):
         """
         """
+        check_fields = ["title","code","slug","title_local","iso_code"]
         IDs_requested = []
-        field = file.split(".")[0]
-        with open(data_repository+file) as id_f:
-            known_IDs = json.loads(id_f)
-        for i in IDs:
-            if isinstance(i,int) or isinstance(i,str):
-                try:
-                    id = int(i)
-                    IDs_requested.append(id)
-                except ValueError:
-                    found = False
-                    for known_id in known_IDs:
-                        if known_id["title"].lower() == i.lower() or known_id["code"].lower() == i.lower() or known_id["slug"].lower() == i.lower():
-                            IDs_requested.append(known_id["id"])
-                            found = True
-                            break
-                    if not found:
-                        raise f"ID : {i} does not correspond to a string or an integer {field} within Vinted, please check the following {field}s :\n{IDs}"
-            else:
-                raise f"ID : {i} does not correspond to a string or an integer {field} within Vinted, please check the following {field}s :\n{IDs}"
+
+
+
+
+        
         return IDs_requested
+
+
+
+
+
+
+
+
+        # IDs_requested = []
+        # field = file.split(".")[0]
+        # with open(data_repository+file) as id_f:
+        #     known_IDs = json.loads(id_f)
+        # for i in IDs:
+        #     if isinstance(i,int) or isinstance(i,str):
+        #         try:
+        #             id = int(i)
+        #             IDs_requested.append(id)
+        #         except ValueError:
+        #             found = False
+        #             for known_id in known_IDs:
+        #                 for field in check_fields:
+        #                     if known_id[field].lower() == i.lower():
+        #                         IDs_requested.append(known_id["id"])
+        #                         found = True
+        #                         break
+        #                 if found:
+        #                     break
+        #             if not found:
+        #                 raise f"ID : {i} does not correspond to a string or an integer {field} within Vinted, please check the following {field}s :\n{IDs}"
+        #     else:
+        #         raise f"ID : {i} does not correspond to a string or an integer {field} within Vinted, please check the following {field}s :\n{IDs}"
+        # return IDs_requested
 
 
 
