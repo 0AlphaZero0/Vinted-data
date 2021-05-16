@@ -47,7 +47,6 @@ id_supported = {
     }
 
 
-
 def JSONfromID(id_names=["catalog","color","brand","size","material","status","country"],id_range=range(0,100),per_page=24,save=False,empty_ids=False):
     """
     This function will extract information from Vinted about the ids requested.
@@ -280,6 +279,31 @@ def searchVinted(searchText="",catalog=[],color=[],brand=[],size=[],material=[],
         """
         """
 
+        
+        def findID(ID_name,ID,data):
+
+            def matchNames(ID_name,ID,data):
+                matched_ids = []
+                for data_id in data:
+                    if ID in [data_id[n] for n in id_supported[ID_name]["names"]]:
+                        matched_ids.append(data_id["id"])
+                return matched_ids
+
+            def isInt(s):
+                try: 
+                    int(s)
+                    return True
+                except ValueError:
+                    return False
+
+            if isInt(ID):
+                return [int(ID)]
+            return matchNames(ID_name,ID,data)
+
+        def treeWalk(ID_name,ID,tree):
+            
+            for child in tree:
+
         IDs_requested = []
 
         # Checking parameters
@@ -295,12 +319,13 @@ def searchVinted(searchText="",catalog=[],color=[],brand=[],size=[],material=[],
         with open(file=data_repository+ID_name+".json",mode="r") as f:
             data = json.loads(f)
 
-        for ID_requested in IDs_requested:
-            pass
-
-
-
-        
+        if ID_name == "size":
+            return matchSize(IDs,data)
+        if "nested" in id_supported[ID_name]:
+            LOOKTHROUGHTREE
+        else:
+            for ID in IDs:
+                IDs_requested += findID(ID_name,ID,data)
         return IDs_requested
 
 
