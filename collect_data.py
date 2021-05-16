@@ -301,8 +301,12 @@ def searchVinted(searchText="",catalog=[],color=[],brand=[],size=[],material=[],
             return matchNames(ID_name,ID,data)
 
         def treeWalk(ID_name,ID,tree):
-            
-            for child in tree:
+            found_IDs = []
+            for item in tree:
+                found_IDs += findID(ID_name,ID,item)
+                if id_supported[ID_name]["nested"] in item and len(item[id_supported[ID_name]["nested"]])>0:
+                    found_IDs += treeWalk(ID_name,ID,item)
+            return found_IDs
 
         IDs_requested = []
 
@@ -321,10 +325,10 @@ def searchVinted(searchText="",catalog=[],color=[],brand=[],size=[],material=[],
 
         if ID_name == "size":
             return matchSize(IDs,data)
-        if "nested" in id_supported[ID_name]:
-            LOOKTHROUGHTREE
-        else:
-            for ID in IDs:
+        for ID in IDs:
+            if "nested" in id_supported[ID_name]:
+                IDs_requested += treeWalk(ID_name,ID,data)
+            else:
                 IDs_requested += findID(ID_name,ID,data)
         return IDs_requested
 
