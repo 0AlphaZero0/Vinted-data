@@ -11,6 +11,8 @@ import re
 
 api_url = "https://www.vinted.fr/api/v2/items?search_text=&catalog_ids=&color_ids=&brand_ids=&size_ids=&material_ids=&status_ids=&country_ids=&city_ids=&is_for_swap=0&page=1&per_page="
 url = "https://www.vinted.fr/vetements?search_text=&brand_id[]=&color_id[]="
+brands_url = "https://www.vinted.fr/brands"
+catalogs_url = "https://www.vinted.fr/data/search-json.js"
 data_repository = "./DATA/"
 
 id_supported = {
@@ -29,7 +31,8 @@ id_supported = {
     "size":{
         "regex":r"\"sizeGroups\":(.*),\"materialGroups",
         "nested":"sizes",
-        "names":["title"]
+        "names":["title"],
+        "only_string":True
         },
     "material":{
         "regex":r"\"materialGroups\":(.*),\"countries",
@@ -278,7 +281,6 @@ def searchVinted(searchText="",catalog=[],color=[],brand=[],size=[],material=[],
     def matchingIDs(ID_name,IDs):
         """
         """
-
         
         def findID(ID_name,ID,data):
 
@@ -296,6 +298,8 @@ def searchVinted(searchText="",catalog=[],color=[],brand=[],size=[],material=[],
                 except ValueError:
                     return False
 
+            if "only_string" in id_supported[ID_name] and id_supported[ID_name]["only_string"]:
+                return matchNames(ID_name,ID,data)
             if isInt(ID):
                 return [int(ID)]
             return matchNames(ID_name,ID,data)
@@ -323,8 +327,6 @@ def searchVinted(searchText="",catalog=[],color=[],brand=[],size=[],material=[],
         with open(file=data_repository+ID_name+".json",mode="r") as f:
             data = json.loads(f)
 
-        if ID_name == "size":
-            return matchSize(IDs,data)
         for ID in IDs:
             if "nested" in id_supported[ID_name]:
                 IDs_requested += treeWalk(ID_name,ID,data)
@@ -363,8 +365,6 @@ def searchVinted(searchText="",catalog=[],color=[],brand=[],size=[],material=[],
         #     else:
         #         raise f"ID : {i} does not correspond to a string or an integer {field} within Vinted, please check the following {field}s :\n{IDs}"
         # return IDs_requested
-
-
 
     params = locals()
     url_search = "https://www.vinted.fr/vetements?search_text="+searchText

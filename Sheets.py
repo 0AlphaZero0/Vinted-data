@@ -220,7 +220,7 @@ def updateVintedSheets(reload_data=False):
     if "JSONfromID" not in sys.modules:
         from collect_data import JSONfromID
     if reload_data:
-        JSONfromID(id_range=range(0,10000),per_page=110,save=True)
+        JSONfromID(id_range=range(0,15000),per_page=110,save=True)
     for file in os.listdir(folder):
         file_name = file.split(".")[0].capitalize()
         print(file_name)
