@@ -287,6 +287,7 @@ def searchVinted(searchText="",catalog=[],color=[],brand=[],size=[],material=[],
             def matchNames(ID_name,ID,data):
                 matched_ids = []
                 for data_id in data:
+                    print([data_id[n] for n in id_supported[ID_name]["names"]])
                     if ID in [data_id[n] for n in id_supported[ID_name]["names"]]:
                         matched_ids.append(data_id["id"])
                 return matched_ids
@@ -325,7 +326,7 @@ def searchVinted(searchText="",catalog=[],color=[],brand=[],size=[],material=[],
 
         # Loading corresponding data
         with open(file=data_repository+ID_name+".json",mode="r") as f:
-            data = json.loads(f)
+            data = json.loads(f.read())
 
         for ID in IDs:
             if "nested" in id_supported[ID_name]:
@@ -335,46 +336,15 @@ def searchVinted(searchText="",catalog=[],color=[],brand=[],size=[],material=[],
         return IDs_requested
 
 
-
-
-
-
-
-
-        # IDs_requested = []
-        # field = file.split(".")[0]
-        # with open(data_repository+file) as id_f:
-        #     known_IDs = json.loads(id_f)
-        # for i in IDs:
-        #     if isinstance(i,int) or isinstance(i,str):
-        #         try:
-        #             id = int(i)
-        #             IDs_requested.append(id)
-        #         except ValueError:
-        #             found = False
-        #             for known_id in known_IDs:
-        #                 for field in check_fields:
-        #                     if known_id[field].lower() == i.lower():
-        #                         IDs_requested.append(known_id["id"])
-        #                         found = True
-        #                         break
-        #                 if found:
-        #                     break
-        #             if not found:
-        #                 raise f"ID : {i} does not correspond to a string or an integer {field} within Vinted, please check the following {field}s :\n{IDs}"
-        #     else:
-        #         raise f"ID : {i} does not correspond to a string or an integer {field} within Vinted, please check the following {field}s :\n{IDs}"
-        # return IDs_requested
-
     params = locals()
     url_search = "https://www.vinted.fr/vetements?search_text="+searchText
     del params["searchText"],params["per_page"],params["page"]
     for param in params:
         if len(params[param]) != 0:
-
-            for param_id in params[param]:
-                url_search = url_search+"&"+param+"_id[]="+str(param_id)
+            url_search = url_search + f"&{param}_id[]=" + f"&{param}_id[]=".join(map(str,matchingIDs(param,params[param])))
     url_search = url_search+"&per_page="+str(per_page)+"&page="+str(page)
+    print(url_search)
+    input()
     req = requests.get(url_search).text
     return req
 
