@@ -287,8 +287,7 @@ def searchVinted(searchText="",catalog=[],color=[],brand=[],size=[],material=[],
             def matchNames(ID_name,ID,data):
                 matched_ids = []
                 for data_id in data:
-                    print([data_id[n] for n in id_supported[ID_name]["names"]])
-                    if ID in [data_id[n] for n in id_supported[ID_name]["names"]]:
+                    if ID.lower() in [data_id[n].lower() for n in id_supported[ID_name]["names"] if n in data_id]:
                         matched_ids.append(data_id["id"])
                 return matched_ids
 
@@ -306,11 +305,10 @@ def searchVinted(searchText="",catalog=[],color=[],brand=[],size=[],material=[],
             return matchNames(ID_name,ID,data)
 
         def treeWalk(ID_name,ID,tree):
-            found_IDs = []
+            found_IDs = findID(ID_name,ID,tree)
             for item in tree:
-                found_IDs += findID(ID_name,ID,item)
                 if id_supported[ID_name]["nested"] in item and len(item[id_supported[ID_name]["nested"]])>0:
-                    found_IDs += treeWalk(ID_name,ID,item)
+                    found_IDs += treeWalk(ID_name,ID,item[id_supported[ID_name]["nested"]])
             return found_IDs
 
         IDs_requested = []
@@ -335,10 +333,16 @@ def searchVinted(searchText="",catalog=[],color=[],brand=[],size=[],material=[],
                 IDs_requested += findID(ID_name,ID,data)
         return IDs_requested
 
-
-    params = locals()
+    params = {
+        "catalog":catalog,
+        "color":color,
+        "brand":brand,
+        "size":size,
+        "material":material,
+        "status":status,
+        "country":country
+    }
     url_search = "https://www.vinted.fr/vetements?search_text="+searchText
-    del params["searchText"],params["per_page"],params["page"]
     for param in params:
         if len(params[param]) != 0:
             url_search = url_search + f"&{param}_id[]=" + f"&{param}_id[]=".join(map(str,matchingIDs(param,params[param])))
