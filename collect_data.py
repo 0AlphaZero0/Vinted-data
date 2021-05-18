@@ -347,8 +347,6 @@ def searchVinted(searchText="",catalog=[],color=[],brand=[],size=[],material=[],
         if len(params[param]) != 0:
             url_search = url_search + f"&{param}_id[]=" + f"&{param}_id[]=".join(map(str,matchingIDs(param,params[param])))
     url_search = url_search+"&per_page="+str(per_page)+"&page="+str(page)
-    print(url_search)
-    input()
     req = requests.get(url_search).text
     return req
 
