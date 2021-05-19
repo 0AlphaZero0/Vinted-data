@@ -11,6 +11,7 @@ import re
 
 api_url = "https://www.vinted.fr/api/v2/items?search_text=&catalog_ids=&color_ids=&brand_ids=&size_ids=&material_ids=&status_ids=&country_ids=&city_ids=&is_for_swap=0&page=1&per_page="
 url = "https://www.vinted.fr/vetements?search_text=&brand_id[]=&color_id[]="
+url_search_txt = "https://www.vinted.fr/vetements?search_text="
 brands_url = "https://www.vinted.fr/brands"
 catalogs_url = "https://www.vinted.fr/data/search-json.js"
 data_repository = "./DATA/"
@@ -171,6 +172,31 @@ def JSONfromID(id_names=["catalog","color","brand","size","material","status","c
             print(id_name.capitalize()+" Name Found : "+brand_title)
         return id_DATA
     
+    def testbrandIds(id_name,id_supported,id_range=id_range,per_page=per_page,empty_ids=empty_ids):
+
+        def chunks(lst, n):
+            for i in range(0, len(lst), n):
+                yield lst[i:i + n]
+
+
+        id_DATA = []
+        ids_to_scan = chunks([i for i in id_range],10)
+        x = 0
+        for chunk in ids_to_scan:
+            x += 1
+            new_url = url_search_txt+"&brand_id[]="+"&brand_id[]=".join(chunk)
+            req = requests.get(new_url)
+            brands = re.findall(r"({\"id\":[0-9]+,\"title\":\"[^\"]+\",\"slug\":[^}]+})", req)
+            for brand in brands:
+                brand = json.loads(brand)
+                if brand not in id_DATA:
+                    id_DATA.append(brand)
+            print("#######################\n"+id_name.split("_")[0].capitalize()+" ID Extraction...")
+            print(new_url)
+            print("Ids processed : "+str(x*10))
+            print("IDs found : "+str(len(id_DATA)))
+        return id_DATA
+
     def params(id_supported,id_names=id_names):
         """
         This function will format the id_names as a list.
@@ -263,7 +289,8 @@ def JSONfromID(id_names=["catalog","color","brand","size","material","status","c
     
 
     id_supported["color"]["modification"] = colorModification
-    id_supported["brand"]["function"] = brandIds
+    # id_supported["brand"]["function"] = brandIds
+    id_supported["brand"]["function"] = testbrandIds
 
     for i in id_supported:
         if "regex" in id_supported[i]:
