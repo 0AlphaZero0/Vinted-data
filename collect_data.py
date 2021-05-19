@@ -14,38 +14,45 @@ url = "https://www.vinted.fr/vetements?search_text=&brand_id[]=&color_id[]="
 brands_url = "https://www.vinted.fr/brands"
 catalogs_url = "https://www.vinted.fr/data/search-json.js"
 data_repository = "./DATA/"
+applicationJSON = r'<script type="application/json" data-js-react-on-rails-store="MainStore">([^<]+)</script>'
 
 id_supported = {
     "catalog":{
-        "regex":r"\"catalogFilters\":{\"dtos\":{\"catalogs\":(.*),\"colors",
+        "regex":applicationJSON,
         "nested":"catalogs",
-        "names":["title","code"]
+        "names":["title","code"],
+        "mainStore":"catalogs"
         },
     "color":{
-        "regex":r"\"colors\":(.*),\"statuses",
-        "names":["title","code"]
+        "regex":applicationJSON,
+        "names":["title","code"],
+        "mainStore":"colors"
         },
     "brand":{
         "names":["title","slug"]
         },
     "size":{
-        "regex":r"\"sizeGroups\":(.*),\"materialGroups",
+        "regex":applicationJSON,
         "nested":"sizes",
         "names":["title"],
-        "only_string":True
+        "only_string":True,
+        "mainStore":"sizeGroups"
         },
     "material":{
-        "regex":r"\"materialGroups\":(.*),\"countries",
+        "regex":applicationJSON,
         "nested":"materials",
-        "names":["title","code"]
+        "names":["title","code"],
+        "mainStore":"materialGroups"
         },
     "status":{
-        "regex":r"\"statuses\":(.*),\"brands",
-        "names":["title"]
+        "regex":applicationJSON,
+        "names":["title"],
+        "mainStore":"statuses"
         },
     "country":{
-        "regex":r"\"countries\":(.*),\"cities",
-        "names":["title","title_local","iso_code"]
+        "regex":applicationJSON,
+        "names":["title","title_local","iso_code"],
+        "mainStore":"countries"
         }
     }
 
@@ -231,6 +238,8 @@ def JSONfromID(id_names=["catalog","color","brand","size","material","status","c
         """
         req = requests.get(url).text
         id_DATA = json.loads(re.findall(id_supported[id_name]["regex"], req)[0])
+        if "mainStore" in id_supported[id_name]:
+            return id_DATA["catalogFilters"]["dtos"][id_supported[id_name]["mainStore"]]
         return id_DATA
 
     def colorModification(id_DATA):
@@ -259,7 +268,6 @@ def JSONfromID(id_names=["catalog","color","brand","size","material","status","c
     for i in id_supported:
         if "regex" in id_supported[i]:
             id_supported[i]["function"] = regexMatching
-
 
     id_names = params(id_supported)
     collected_data = {}
