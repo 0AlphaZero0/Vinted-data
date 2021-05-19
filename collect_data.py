@@ -149,43 +149,20 @@ def JSONfromID(id_names=["catalog","color","brand","size","material","status","c
             This list will contains every brand ids found and their corresponding information.
 
         """
-        id_DATA=[]
-        for i in id_range:
-            new_url = url.replace(id_name+"_id[]=",id_name+"_id[]="+str(i))
-            req = requests.get(new_url).text
-            print("#######################\n"+id_name.split("_")[0].capitalize()+" ID Extraction...")
-            print(new_url)
-            print(id_name+" : "+str(i))
-            brands = re.findall(r"({\"id\":[0-9]+,\"title\":\"[^\"]+\",\"slug\":[^}]+})", req)
-            for pot_brand in brands:
-                pot_brand=json.loads(pot_brand)
-                if pot_brand["id"] == i:
-                    brand_info = pot_brand
-                    brand_title = brand_info["title"]
-                    id_DATA.append(brand_info)
-                    break
-            else:
-                brand_info = {"id":i, "brand_title":""}
-                brand_title = ""
-                if empty_ids:
-                    id_DATA.append(brand_info)
-            print(id_name.capitalize()+" Name Found : "+brand_title)
-        return id_DATA
-    
-    def testbrandIds(id_name,id_supported,id_range=id_range,per_page=per_page,empty_ids=empty_ids):
 
         def chunks(lst, n):
             for i in range(0, len(lst), n):
                 yield lst[i:i + n]
 
-
+        chunk_size = 50
         id_DATA = []
-        ids_to_scan = chunks([i for i in id_range],10)
+        ids_to_scan = chunks([i for i in id_range],chunk_size)
         x = 0
         for chunk in ids_to_scan:
             x += 1
+            chunk = [str(s) for s in chunk]
             new_url = url_search_txt+"&brand_id[]="+"&brand_id[]=".join(chunk)
-            req = requests.get(new_url)
+            req = requests.get(new_url).text
             brands = re.findall(r"({\"id\":[0-9]+,\"title\":\"[^\"]+\",\"slug\":[^}]+})", req)
             for brand in brands:
                 brand = json.loads(brand)
@@ -193,7 +170,7 @@ def JSONfromID(id_names=["catalog","color","brand","size","material","status","c
                     id_DATA.append(brand)
             print("#######################\n"+id_name.split("_")[0].capitalize()+" ID Extraction...")
             print(new_url)
-            print("Ids processed : "+str(x*10))
+            print("Ids processed : "+str(x*chunk_size))
             print("IDs found : "+str(len(id_DATA)))
         return id_DATA
 
@@ -290,7 +267,7 @@ def JSONfromID(id_names=["catalog","color","brand","size","material","status","c
 
     id_supported["color"]["modification"] = colorModification
     # id_supported["brand"]["function"] = brandIds
-    id_supported["brand"]["function"] = testbrandIds
+    id_supported["brand"]["function"] = brandIds
 
     for i in id_supported:
         if "regex" in id_supported[i]:
