@@ -276,7 +276,7 @@ def JSONfromID(id_names=["catalog","color","brand","size","material","status","c
                 json.dump(collected_data[id_collected],outfile,indent=2)
     return collected_data
 
-def searchVinted(searchText="",catalog=[],color=[],brand=[],size=[],material=[],status=[],country=[],per_page=110,page=1):
+def searchVinted(searchText="",catalog=[],color=[],brand=[],size=[],material=[],status=[],country=[],price_to=1000000,price_from=0,currency="EUR",per_page=120,page=1):
 
     def matchingIDs(ID_name,IDs):
         """
@@ -329,6 +329,11 @@ def searchVinted(searchText="",catalog=[],color=[],brand=[],size=[],material=[],
         for ID in IDs:
             if "nested" in id_supported[ID_name]:
                 IDs_requested += treeWalk(ID_name,ID,data)
+                tmp = []
+                for i in IDs_requested:
+                    if i not in tmp:
+                        tmp.append(i)
+                IDs_requested = tmp
             else:
                 IDs_requested += findID(ID_name,ID,data)
         return IDs_requested
@@ -342,13 +347,31 @@ def searchVinted(searchText="",catalog=[],color=[],brand=[],size=[],material=[],
         "status":status,
         "country":country
     }
+
     url_search = "https://www.vinted.fr/vetements?search_text="+searchText
     for param in params:
         if len(params[param]) != 0:
-            url_search = url_search + f"&{param}_id[]=" + f"&{param}_id[]=".join(map(str,matchingIDs(param,params[param])))
-    url_search = url_search+"&per_page="+str(per_page)+"&page="+str(page)
-    req = requests.get(url_search).text
-    return req
+            if param == "catalog":
+                url_search = url_search + f"&{param}[]=" + f"&{param}[]=".join(map(str,matchingIDs(param,params[param])))
+            else:
+                url_search = url_search + f"&{param}_id[]=" + f"&{param}_id[]=".join(map(str,matchingIDs(param,params[param])))
+    url_search = url_search+"&per_page="+str(per_page)+"&page="+str(page)+"&price_from="+str(price_from)+"&price_to="+str(price_to)+"&currency="+str(currency)
+    print("URL built : "+url_search)
+    items = json.loads(re.findall(r'<script type="application/json" data-js-react-on-rails-store="MainStore">([^<]+)</script>',requests.get(url_search).text)[0])["items"]
+    return {"items":items["byId"],"searchParams":items["catalogItems"]}
+
+def getField(items,field_names=["id"]):
+    
+    VALUES = {}
+    for field_name in field_names:
+        VALUES[field_name] = []
+        for item in items:
+            if field_name not in items[item]:
+                raise f"The field name {field_name} does not exists within the following item :\n {items[item]}"
+            VALUES[field_name].append(items[item][field_name])
+    return VALUES
+
+
 
 if __name__ == '__main__':
     JSONfromID()
