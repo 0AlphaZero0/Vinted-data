@@ -3,17 +3,18 @@
 Created on Mon Apr 12 11:45:45 2021
 
 @author: Arthur Thouvenin
+contact: athouvenin [at] outlook.com
 """
 
 import requests
 import json
 import re
 
-api_url = "https://www.vinted.fr/api/v2/items?search_text=&catalog_ids=&color_ids=&brand_ids=&size_ids=&material_ids=&status_ids=&country_ids=&city_ids=&is_for_swap=0&page=1&per_page="
+# api_url = "https://www.vinted.fr/api/v2/items?search_text=&catalog_ids=&color_ids=&brand_ids=&size_ids=&material_ids=&status_ids=&country_ids=&city_ids=&is_for_swap=0&page=1&per_page="
 url = "https://www.vinted.fr/vetements?search_text=&brand_id[]=&color_id[]="
 url_search_txt = "https://www.vinted.fr/vetements?search_text="
-brands_url = "https://www.vinted.fr/brands"
-catalogs_url = "https://www.vinted.fr/data/search-json.js"
+# brands_url = "https://www.vinted.fr/brands"
+# catalogs_url = "https://www.vinted.fr/data/search-json.js"
 data_repository = "./DATA/"
 applicationJSON = r'<script type="application/json" data-js-react-on-rails-store="MainStore">([^<]+)</script>'
 
@@ -22,38 +23,45 @@ id_supported = {
         "regex":applicationJSON,
         "nested":"catalogs",
         "names":["title","code"],
-        "mainStore":"catalogs"
+        "mainStore":"catalogs",
+        "url_name":"catalog[]"
         },
     "color":{
         "regex":applicationJSON,
         "names":["title","code"],
-        "mainStore":"colors"
+        "mainStore":"colors",
+        "url_name":"color_id[]"
         },
     "brand":{
-        "names":["title","slug"]
+        "names":["title","slug"],
+        "url_name":"brand_id[]"
         },
     "size":{
         "regex":applicationJSON,
         "nested":"sizes",
         "names":["title"],
         "only_string":True,
-        "mainStore":"sizeGroups"
+        "mainStore":"sizeGroups",
+        "url_name":"size_id[]"
         },
     "material":{
         "regex":applicationJSON,
         "nested":"materials",
         "names":["title","code"],
-        "mainStore":"materialGroups"
+        "mainStore":"materialGroups",
+        "url_name":"material_id[]"
         },
     "status":{
         "regex":applicationJSON,
         "names":["title"],
-        "mainStore":"statuses"
+        "mainStore":"statuses",
+        "url_name":"status_id[]"
         },
     "country":{
         "regex":applicationJSON,
         "names":["title","title_local","iso_code"],
-        "mainStore":"countries"
+        "mainStore":"countries",
+        "url_name":"country_id[]"
         }
     }
 
@@ -303,16 +311,103 @@ def JSONfromID(id_names=["catalog","color","brand","size","material","status","c
     return collected_data
 
 def searchVinted(searchText="",catalog=[],color=[],brand=[],size=[],material=[],status=[],country=[],price_to=1000000,price_from=0,currency="EUR",per_page=120,page=1):
+    """
+    This function try to a programmatic way to search for item within Vinted thanks to Vinted data extract everyday and store in the folder DATA.
+
+    Parameters
+    ----------
+    searchText : STRING, optional
+        A string that will correspond to a search with the Vinted search bar.
+    catalog : LIST, optional
+        A list of specific IDs or catalog names.
+    color : LIST, optional
+        A list of specific IDs or color names.
+    brand : LIST, optional
+        A list of specific IDs or brand names.
+    size : LIST, optional
+        A list of specific IDs or size names.
+    material : LIST, optional
+        A list of specific IDs or material names.
+    status : LIST, optional
+        A list of specific IDs or status names.
+    country : LIST, optional
+        A list of specific IDs or country names.
+    price_to : INTEGER, optional
+        A maximum price fix as the max limit.
+    price_from : INTEGER, optional
+        A minimum price fix as the min limit.
+    currency : STRING, optional
+        The currency in which you want the prices.
+    per_page : INTEGER, optional
+        The number of items per page in your result.
+    page : INTEGER, optional
+        The page index.
+    
+    Return
+    ------
+    --- : DICTIONARY
+        This function will return a dictionary looking like :
+        {
+            "items": [item1,item2,item3,item4,...,itemN],
+            "searchParams":{Parameters of the search within Vinted}
+        }
+    """
+
 
     def matchingIDs(ID_name,IDs):
         """
+        This function will try to match the information provided as ID to the data corresponding to the ID_name.
+        For example if we provide the ID_name 'color', we can either provide an integer ID or a string such as 'pink' for the corresponding color.
+
+        Parameters
+        ----------
+        ID_name : STRING
+            An ID name corresponding to one of the supported id within id_supported.
+        IDs : LIST
+            A list of integer or string corresponding to IDs found within Vinted data.
+        
+        Return
+        ------
+        IDs_requested : LIST
+            A list of matched IDs corresponding to information provided in IDs.
+
         """
         
         def findID(ID_name,ID,data):
             """
+            This function will try to match an ID to the 'ID' provided, it can either be an integer or a string corresponding to a term inside the title of ID for example 'rose' for the color pink.
+
+            Parameters
+            ----------
+            ID_name : STRING
+                A string that correspond to one if the ID name supported (Check the dictionary id_supported).
+            ID : STRING OR INTEGER
+                If ID is an integer it will be consider as the ID to look for (except for sizes as these can sometimes be integer), if it is a string then the algorithm will try to match an ID based on the string provided.
+            data : LIST
+                A list of dictionaries corresponding to one of the JSON file in the DATA folder.
+            
+            Return
+            ------
+            --- : LIST
+                A list of IDs matched to the string or integer provided as ID.
             """
             def matchNames(ID_name,ID,data):
                 """
+                This function will return the corresponding ids matched to the ID provided with the parameter data and ID_name. IDs will be matched through a string matching.
+
+                Parameters
+                ----------
+                ID_name : STRING
+                    The name of the ID to check for example if you are looking for 'H&M' brand the ID_name should be 'brand'.
+                ID : STRING
+                    The string provided to find within the data for example for an ID_name='brand' the ID can be 'Nike'.
+                data : LIST
+                    A list of dictionaries corresponding to one of the JSON file in the DATA folder.
+                
+                Return
+                ------
+                matched_ids : LIST
+                    A list of integer corresponding to the IDs matched.
                 """
                 matched_ids = []
                 for data_id in data:
@@ -346,7 +441,28 @@ def searchVinted(searchText="",catalog=[],color=[],brand=[],size=[],material=[],
             return matchNames(ID_name,ID,data)
 
         def treeWalk(ID_name,ID,tree):
+            """
+            Recursive function that will walk through all parents and child of the tree provided as parameter to find the corresponding IDs.
+
+            Parameters
+            ----------
+            ID_name : STRING
+                The name of the ID to check for example if you are looking for 'H&M' brand the ID_name should be 'brand'.
+            ID : STRING
+                The string provided to find within the data for example for an ID_name='brand' the ID can be 'Nike'.
+            tree : LIST
+                A list of dictionaries corresponding to one of the JSON file in the DATA folder, ordered as a tree with parents and childs IDs.
+            
+            Return
+            ------
+            found_IDs : LIST
+                A list of integer corresponding to the IDs matched.
+
+            """
+
             found_IDs = findID(ID_name,ID,tree)
+
+            # Recursive loop
             for item in tree:
                 if id_supported[ID_name]["nested"] in item and len(item[id_supported[ID_name]["nested"]])>0:
                     found_IDs += treeWalk(ID_name,ID,item[id_supported[ID_name]["nested"]])
@@ -367,6 +483,7 @@ def searchVinted(searchText="",catalog=[],color=[],brand=[],size=[],material=[],
         with open(file=data_repository+ID_name+".json",mode="r") as f:
             data = json.loads(f.read())
 
+        # Loop through provided information
         for ID in IDs:
             if "nested" in id_supported[ID_name]:
                 IDs_requested += treeWalk(ID_name,ID,data)
@@ -390,19 +507,38 @@ def searchVinted(searchText="",catalog=[],color=[],brand=[],size=[],material=[],
     }
 
     url_search = "https://www.vinted.fr/vetements?search_text="+searchText
+    url_params = {
+        "per_page":per_page,
+        "page":page,
+        "price_from":price_from,
+        "price_to":price_to,
+        "currency":currency
+    }
     for param in params:
         if len(params[param]) != 0:
-            if param == "catalog":
-                url_search = url_search + f"&{param}[]=" + f"&{param}[]=".join(map(str,matchingIDs(param,params[param])))
-            else:
-                url_search = url_search + f"&{param}_id[]=" + f"&{param}_id[]=".join(map(str,matchingIDs(param,params[param])))
-    url_search = url_search+"&per_page="+str(per_page)+"&page="+str(page)+"&price_from="+str(price_from)+"&price_to="+str(price_to)+"&currency="+str(currency)
-    print("URL built : "+url_search)
-    items = json.loads(re.findall(r'<script type="application/json" data-js-react-on-rails-store="MainStore">([^<]+)</script>',requests.get(url_search).text)[0])["items"]
+            url_params[id_supported[param]["url_name"]]=matchingIDs(param,params[param])
+    req = requests.get(url_search,params=url_params)
+    print(req.url)
+    items = json.loads(re.findall(r'<script type="application/json" data-js-react-on-rails-store="MainStore">([^<]+)</script>',req.text)[0])["items"]
     return {"items":items["byId"],"searchParams":items["catalogItems"]}
 
 def getField(items,field_names=["id"]):
+    """
+    This function will extract, from the result of Vinted search through searchVinted function, all values of a specific field. For example in each Item there is a field called 'price', with this function you can get a list of all prices from your search.
     
+    Parameters
+    ----------
+    items : LIST
+        An item list that corresponds to a list of dictionaries which can be found as the item "items" of the searchVinted response.
+    field_names : LIST, optional
+        A list of field names provided as strings. For examples , "prices","id","photo",etc.
+    
+    Returns
+    -------
+    VALUES : DICTIONARY
+        The dictionary will corresponds to the name of the field as the key and the list of values as value.
+    
+    """
     VALUES = {}
     for field_name in field_names:
         VALUES[field_name] = []

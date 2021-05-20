@@ -3,6 +3,7 @@
 Created on Sun Apr 18 23:18:00 2021
 
 @author: Arthur Thouvenin
+contact: athouvenin [at] outlook.com
 """
 
 import gspread
