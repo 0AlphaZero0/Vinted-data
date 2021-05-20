@@ -151,6 +151,21 @@ def JSONfromID(id_names=["catalog","color","brand","size","material","status","c
         """
 
         def chunks(lst, n):
+            """
+            This function will create sublists of size n from the list lst.
+
+            Parameters
+            ----------
+            lst : LIST
+                This parameter is not used here but essential.
+            n : INTEGER
+                This parameter is not used here but essential.
+            
+            Returns
+            -------
+            None
+
+            """
             for i in range(0, len(lst), n):
                 yield lst[i:i + n]
 
@@ -266,7 +281,6 @@ def JSONfromID(id_names=["catalog","color","brand","size","material","status","c
     
 
     id_supported["color"]["modification"] = colorModification
-    # id_supported["brand"]["function"] = brandIds
     id_supported["brand"]["function"] = brandIds
 
     for i in id_supported:
@@ -295,8 +309,11 @@ def searchVinted(searchText="",catalog=[],color=[],brand=[],size=[],material=[],
         """
         
         def findID(ID_name,ID,data):
-
+            """
+            """
             def matchNames(ID_name,ID,data):
+                """
+                """
                 matched_ids = []
                 for data_id in data:
                     if ID.lower() in [data_id[n].lower() for n in id_supported[ID_name]["names"] if n in data_id]:
@@ -304,6 +321,18 @@ def searchVinted(searchText="",catalog=[],color=[],brand=[],size=[],material=[],
                 return matched_ids
 
             def isInt(s):
+                """
+                This function will check if the s object is an integer or not and return the corresponding boolean.
+
+                Parameters
+                ----------
+                s : PYTHON OBJECT
+                    The Python object that need to be checked.
+                
+                Return
+                ------
+                A BOOLEAN
+                """
                 try: 
                     int(s)
                     return True
