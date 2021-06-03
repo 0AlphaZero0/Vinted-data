@@ -548,7 +548,9 @@ def getField(items,field_names=["id"]):
             VALUES[field_name].append(items[item][field_name])
     return VALUES
 
-
+def getData(ID_name):
+    with open(file=data_repository+ID_name+".json",mode="r") as f:
+        return json.loads(f.read())
 
 if __name__ == '__main__':
     JSONfromID()
