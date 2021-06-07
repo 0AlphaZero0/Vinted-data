@@ -76,5 +76,18 @@
       "format": "^\\d{5}$",
       "blacklist_regex": "\\A(00120|4789)"
     }
+  },
+  {
+    "id": 21,
+    "title": "Portugal",
+    "title_local": "Portugal",
+    "iso_code": "PT",
+    "postal_code_constraints": {
+      "max_length": 8,
+      "min_length": 8,
+      "keyboard_input_type": "default",
+      "format": "^(\\d{4})-(\\d{3})$",
+      "blacklist_regex": null
+    }
   }
 ]
