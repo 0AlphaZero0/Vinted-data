@@ -310,7 +310,7 @@ def JSONfromID(id_names=["catalog","color","brand","size","material","status","c
                 json.dump(collected_data[id_collected],outfile,indent=2)
     return collected_data
 
-def searchVinted(searchText="",catalog=[],color=[],brand=[],size=[],material=[],status=[],country=[],price_to=1000000,price_from=0,currency="EUR",per_page=120,page=1):
+def searchVinted(print_url=True,searchText="",catalog=[],color=[],brand=[],size=[],material=[],status=[],country=[],price_to=1000000,price_from=0,currency="EUR",per_page=120,page=1):
     """
     This function try to a programmatic way to search for item within Vinted thanks to Vinted data extract everyday and store in the folder DATA.
 
@@ -518,7 +518,8 @@ def searchVinted(searchText="",catalog=[],color=[],brand=[],size=[],material=[],
         if len(params[param]) != 0:
             url_params[id_supported[param]["url_name"]]=matchingIDs(param,params[param])
     req = requests.get(url_search,params=url_params)
-    print(req.url)
+    if print_url:
+        print(req.url)
     items = json.loads(re.findall(r'<script type="application/json" data-js-react-on-rails-store="MainStore">([^<]+)</script>',req.text)[0])["items"]
     return {"items":items["byId"],"searchParams":items["catalogItems"]}
 
