@@ -1878,6 +1878,15 @@
     "caption": "Taille",
     "description": "Soutiens-gorge",
     "size_ids": [
+      1325,
+      1324,
+      1323,
+      1322,
+      1321,
+      1320,
+      1319,
+      1318,
+      1317,
       1247,
       1248,
       1249,
@@ -1946,452 +1955,515 @@
     "faq_entry_id": 508,
     "sizes": [
       {
+        "id": 1325,
+        "title": "75J / 90J / 34J",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 1
+      },
+      {
+        "id": 1324,
+        "title": "75H / 90H / 34H",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 2
+      },
+      {
+        "id": 1323,
+        "title": "75G / 90G / 34G",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 3
+      },
+      {
+        "id": 1322,
+        "title": "70J / 85J / 32J",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 4
+      },
+      {
+        "id": 1321,
+        "title": "70H / 85G / 32H",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 5
+      },
+      {
+        "id": 1320,
+        "title": "70G / 85G / 32G",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 6
+      },
+      {
+        "id": 1319,
+        "title": "65J / 80J / 30J",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 7
+      },
+      {
+        "id": 1318,
+        "title": "65H / 80H / 30H",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 8
+      },
+      {
+        "id": 1317,
+        "title": "65G / 80G / 30G",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 9
+      },
+      {
         "id": 1247,
         "title": "80A & AA",
         "is_default": 0,
         "is_other": 0,
-        "order": 1
+        "order": 10
       },
       {
         "id": 1248,
         "title": "80B",
         "is_default": 0,
         "is_other": 0,
-        "order": 2
+        "order": 11
       },
       {
         "id": 1249,
         "title": "80C",
         "is_default": 0,
         "is_other": 0,
-        "order": 3
+        "order": 12
       },
       {
         "id": 1250,
         "title": "80D",
         "is_default": 0,
         "is_other": 0,
-        "order": 4
+        "order": 13
       },
       {
         "id": 1251,
         "title": "80E",
         "is_default": 0,
         "is_other": 0,
-        "order": 5
+        "order": 14
       },
       {
         "id": 1252,
         "title": "80F",
         "is_default": 0,
         "is_other": 0,
-        "order": 6
+        "order": 15
       },
       {
         "id": 1253,
         "title": "85A & AA",
         "is_default": 0,
         "is_other": 0,
-        "order": 7
+        "order": 16
       },
       {
         "id": 1254,
         "title": "85B",
         "is_default": 0,
         "is_other": 0,
-        "order": 8
+        "order": 17
       },
       {
         "id": 1255,
         "title": "85C",
         "is_default": 0,
         "is_other": 0,
-        "order": 9
+        "order": 18
       },
       {
         "id": 1256,
         "title": "85D",
         "is_default": 0,
         "is_other": 0,
-        "order": 10
+        "order": 19
       },
       {
         "id": 1257,
         "title": "85E",
         "is_default": 0,
         "is_other": 0,
-        "order": 11
+        "order": 20
       },
       {
         "id": 1258,
         "title": "85F",
         "is_default": 0,
         "is_other": 0,
-        "order": 12
+        "order": 21
       },
       {
         "id": 1259,
         "title": "90A & AA",
         "is_default": 0,
         "is_other": 0,
-        "order": 13
+        "order": 22
       },
       {
         "id": 1260,
         "title": "90B",
         "is_default": 0,
         "is_other": 0,
-        "order": 14
+        "order": 23
       },
       {
         "id": 1261,
         "title": "90C",
         "is_default": 0,
         "is_other": 0,
-        "order": 15
+        "order": 24
       },
       {
         "id": 1262,
         "title": "90D",
         "is_default": 0,
         "is_other": 0,
-        "order": 16
+        "order": 25
       },
       {
         "id": 1263,
         "title": "90E",
         "is_default": 0,
         "is_other": 0,
-        "order": 17
+        "order": 26
       },
       {
         "id": 1264,
         "title": "90F",
         "is_default": 0,
         "is_other": 0,
-        "order": 18
+        "order": 27
       },
       {
         "id": 1265,
         "title": "95A & AA",
         "is_default": 0,
         "is_other": 0,
-        "order": 19
+        "order": 28
       },
       {
         "id": 1266,
         "title": "95B",
         "is_default": 0,
         "is_other": 0,
-        "order": 20
+        "order": 29
       },
       {
         "id": 1267,
         "title": "95C",
         "is_default": 0,
         "is_other": 0,
-        "order": 21
+        "order": 30
       },
       {
         "id": 1268,
         "title": "95D",
         "is_default": 0,
         "is_other": 0,
-        "order": 22
+        "order": 31
       },
       {
         "id": 1269,
         "title": "95E",
         "is_default": 0,
         "is_other": 0,
-        "order": 23
+        "order": 32
       },
       {
         "id": 1270,
         "title": "95F",
         "is_default": 0,
         "is_other": 0,
-        "order": 24
+        "order": 33
       },
       {
         "id": 1271,
         "title": "95G",
         "is_default": 0,
         "is_other": 0,
-        "order": 25
+        "order": 34
       },
       {
         "id": 1272,
         "title": "95H",
         "is_default": 0,
         "is_other": 0,
-        "order": 26
+        "order": 35
       },
       {
         "id": 1273,
         "title": "95J",
         "is_default": 0,
         "is_other": 0,
-        "order": 27
+        "order": 36
       },
       {
         "id": 1274,
         "title": "100A & AA",
         "is_default": 0,
         "is_other": 0,
-        "order": 28
+        "order": 37
       },
       {
         "id": 1275,
         "title": "100B",
         "is_default": 0,
         "is_other": 0,
-        "order": 29
+        "order": 38
       },
       {
         "id": 1276,
         "title": "100C",
         "is_default": 0,
         "is_other": 0,
-        "order": 30
+        "order": 39
       },
       {
         "id": 1277,
         "title": "100D",
         "is_default": 0,
         "is_other": 0,
-        "order": 31
+        "order": 40
       },
       {
         "id": 1278,
         "title": "100E",
         "is_default": 0,
         "is_other": 0,
-        "order": 32
+        "order": 41
       },
       {
         "id": 1279,
         "title": "100F",
         "is_default": 0,
         "is_other": 0,
-        "order": 33
+        "order": 42
       },
       {
         "id": 1280,
         "title": "100G",
         "is_default": 0,
         "is_other": 0,
-        "order": 34
+        "order": 43
       },
       {
         "id": 1281,
         "title": "100H",
         "is_default": 0,
         "is_other": 0,
-        "order": 35
+        "order": 44
       },
       {
         "id": 1282,
         "title": "100J",
         "is_default": 0,
         "is_other": 0,
-        "order": 36
+        "order": 45
       },
       {
         "id": 1283,
         "title": "105A & AA",
         "is_default": 0,
         "is_other": 0,
-        "order": 37
+        "order": 46
       },
       {
         "id": 1284,
         "title": "105B",
         "is_default": 0,
         "is_other": 0,
-        "order": 38
+        "order": 47
       },
       {
         "id": 1285,
         "title": "105C",
         "is_default": 0,
         "is_other": 0,
-        "order": 39
+        "order": 48
       },
       {
         "id": 1286,
         "title": "105D",
         "is_default": 0,
         "is_other": 0,
-        "order": 40
+        "order": 49
       },
       {
         "id": 1287,
         "title": "105E",
         "is_default": 0,
         "is_other": 0,
-        "order": 41
+        "order": 50
       },
       {
         "id": 1288,
         "title": "105F",
         "is_default": 0,
         "is_other": 0,
-        "order": 42
+        "order": 51
       },
       {
         "id": 1289,
         "title": "106G",
         "is_default": 0,
         "is_other": 0,
-        "order": 43
+        "order": 52
       },
       {
         "id": 1290,
         "title": "105H",
         "is_default": 0,
         "is_other": 0,
-        "order": 44
+        "order": 53
       },
       {
         "id": 1291,
         "title": "105J",
         "is_default": 0,
         "is_other": 0,
-        "order": 45
+        "order": 54
       },
       {
         "id": 1292,
         "title": "110A & AA",
         "is_default": 0,
         "is_other": 0,
-        "order": 46
+        "order": 55
       },
       {
         "id": 1293,
         "title": "110B",
         "is_default": 0,
         "is_other": 0,
-        "order": 47
+        "order": 56
       },
       {
         "id": 1294,
         "title": "110C",
         "is_default": 0,
         "is_other": 0,
-        "order": 48
+        "order": 57
       },
       {
         "id": 1295,
         "title": "110D",
         "is_default": 0,
         "is_other": 0,
-        "order": 49
+        "order": 58
       },
       {
         "id": 1296,
         "title": "110E",
         "is_default": 0,
         "is_other": 0,
-        "order": 50
+        "order": 59
       },
       {
         "id": 1297,
         "title": "110F",
         "is_default": 0,
         "is_other": 0,
-        "order": 51
+        "order": 60
       },
       {
         "id": 1298,
         "title": "110G",
         "is_default": 0,
         "is_other": 0,
-        "order": 52
+        "order": 61
       },
       {
         "id": 1299,
         "title": "110H",
         "is_default": 0,
         "is_other": 0,
-        "order": 53
+        "order": 62
       },
       {
         "id": 1300,
         "title": "110J",
         "is_default": 0,
         "is_other": 0,
-        "order": 54
+        "order": 63
       },
       {
         "id": 1301,
         "title": "115A & AA",
         "is_default": 0,
         "is_other": 0,
-        "order": 55
+        "order": 64
       },
       {
         "id": 1302,
         "title": "115B",
         "is_default": 0,
         "is_other": 0,
-        "order": 56
+        "order": 65
       },
       {
         "id": 1303,
         "title": "115C",
         "is_default": 0,
         "is_other": 0,
-        "order": 57
+        "order": 66
       },
       {
         "id": 1304,
         "title": "115D",
         "is_default": 0,
         "is_other": 0,
-        "order": 58
+        "order": 67
       },
       {
         "id": 1305,
         "title": "115E",
         "is_default": 0,
         "is_other": 0,
-        "order": 59
+        "order": 68
       },
       {
         "id": 1306,
         "title": "115F",
         "is_default": 0,
         "is_other": 0,
-        "order": 60
+        "order": 69
       },
       {
         "id": 1307,
         "title": "115G",
         "is_default": 0,
         "is_other": 0,
-        "order": 61
+        "order": 70
       },
       {
         "id": 1308,
         "title": "115H",
         "is_default": 0,
         "is_other": 0,
-        "order": 62
+        "order": 71
       },
       {
         "id": 1309,
         "title": "115J",
         "is_default": 0,
         "is_other": 0,
-        "order": 63
+        "order": 72
       },
       {
         "id": 1310,
         "title": "Autre",
         "is_default": 0,
         "is_other": 0,
-        "order": 64
+        "order": 73
       }
     ]
   },

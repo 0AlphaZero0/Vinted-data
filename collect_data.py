@@ -66,7 +66,7 @@ id_supported = {
     }
 
 
-def JSONfromID(id_names=["catalog","color","brand","size","material","status","country"],id_range=range(0,100),per_page=24,save=False,empty_ids=False):
+def JSONfromID(id_names=[x for x in id_supported],id_range=range(0,100),per_page=24,save=False,empty_ids=False):
     """
     This function will extract information from Vinted about the ids requested.
 

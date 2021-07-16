@@ -203,9 +203,9 @@ def updateVintedSheets(reload_data=False):
         "Color":{
             'function':readJSON
             },
-        "Country":{
-            'function':unPack_Countries
-            },
+        # "Country":{
+        #     'function':unPack_Countries
+        #     },
         "Material":{
             'function':unPack_Materials
             },
