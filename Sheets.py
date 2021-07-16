@@ -156,27 +156,27 @@ def updateVintedSheets(reload_data=False):
         DATA = pd.json_normalize(DATA)
         return DATA
 
-    def unPack_Countries(json_f):
-        """
-        This function will return a flatten JSON normalized as a pandas array from the JSON object within the json file (json_f). Thus an embbed JSON will be flatten to a single level layer.
-        Materials within Vinted are embedded, this function will bring all sub-materials and parents materials to the same level.
+    # def unPack_Countries(json_f):
+    #     """
+    #     This function will return a flatten JSON normalized as a pandas array from the JSON object within the json file (json_f). Thus an embbed JSON will be flatten to a single level layer.
+    #     Materials within Vinted are embedded, this function will bring all sub-materials and parents materials to the same level.
 
-        Parameters
-        ----------
-        json_f : FILE OBJECT
-            The JSON object corresponding to the Catalogs found within Vinted.
+    #     Parameters
+    #     ----------
+    #     json_f : FILE OBJECT
+    #         The JSON object corresponding to the Catalogs found within Vinted.
         
-        Returns
-        -------
-        DATA : A pandas DataFrame, a list of dictionaries corresponding to all materials found within Vinted.
-        """
-        json_f = json.load(json_f)
-        field_lists = ["postal_code_constraints"]
-        for item in json_f:
-            for field in field_lists:
-                if field in item:
-                    del item[field]
-        return pd.json_normalize(json_f)
+    #     Returns
+    #     -------
+    #     DATA : A pandas DataFrame, a list of dictionaries corresponding to all materials found within Vinted.
+    #     """
+    #     json_f = json.load(json_f)
+    #     field_lists = ["postal_code_constraints"]
+    #     for item in json_f:
+    #         for field in field_lists:
+    #             if field in item:
+    #                 del item[field]
+    #     return pd.json_normalize(json_f)
 
     def readJSON(json_f):
         """
