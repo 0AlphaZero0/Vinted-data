@@ -23,6 +23,9 @@ Currently the _BRAND ID_ is the one that take the most time to collect, as I did
 Currently I investigate the [Vinted API](https://www.vinted.fr/api/v2/) to find a better solution than scraping the HTML.
 
 
+ :warning::warning::warning: _**Warning Countries have been removed from the Vinted responses therefore these are no longer supported**_ :warning::warning::warning:
+
+
 ## Vinted search
 
 The Vinted search works perfectly and handle 7 different IDs (catalogs, colors, brands, sizes, materials, status, countries). It returns a dictionary with for the key "items" a list of items found with the Search used. This method can be found within the file collect_data.py. You can therefore use it as follow :
