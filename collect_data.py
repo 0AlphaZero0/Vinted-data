@@ -56,13 +56,13 @@ id_supported = {
         "names":["title"],
         "mainStore":"statuses",
         "url_name":"status_id[]"
-        },
-    "country":{
-        "regex":applicationJSON,
-        "names":["title","title_local","iso_code"],
-        "mainStore":"countries",
-        "url_name":"country_id[]"
         }
+    # "country":{
+    #     "regex":applicationJSON,
+    #     "names":["title","title_local","iso_code"],
+    #     "mainStore":"countries",
+    #     "url_name":"country_id[]"
+    #     }
     }
 
 
