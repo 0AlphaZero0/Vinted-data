@@ -226,7 +226,10 @@ def updateVintedSheets(reload_data=False):
         file_name = file.split(".")[0].capitalize()
         print(file_name)
         with open(folder+file,"r") as json_file:
-            data = id_files[file_name]['function'](json_file)
+            if file_name in id_files:
+                data = id_files[file_name]['function'](json_file)
+            else:
+                continue
         data.fillna('', inplace=True)
         sheet = spreadsheet.worksheet(file_name)
         sheet.update([data.columns.values.tolist()] + data.values.tolist())
