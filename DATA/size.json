@@ -1878,33 +1878,33 @@
     "caption": "Taille",
     "description": "Soutiens-gorge",
     "size_ids": [
-      1325,
-      1324,
-      1323,
-      1322,
-      1321,
-      1320,
-      1319,
-      1318,
-      1317,
       1247,
       1248,
       1249,
       1250,
       1251,
       1252,
+      1317,
+      1318,
+      1319,
       1253,
       1254,
       1255,
       1256,
       1257,
       1258,
+      1320,
+      1321,
+      1322,
       1259,
       1260,
       1261,
       1262,
       1263,
       1264,
+      1323,
+      1324,
+      1325,
       1265,
       1266,
       1267,
@@ -1955,190 +1955,190 @@
     "faq_entry_id": 508,
     "sizes": [
       {
-        "id": 1325,
-        "title": "75J / 90J / 34J",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 1
-      },
-      {
-        "id": 1324,
-        "title": "75H / 90H / 34H",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 2
-      },
-      {
-        "id": 1323,
-        "title": "75G / 90G / 34G",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 3
-      },
-      {
-        "id": 1322,
-        "title": "70J / 85J / 32J",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 4
-      },
-      {
-        "id": 1321,
-        "title": "70H / 85G / 32H",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 5
-      },
-      {
-        "id": 1320,
-        "title": "70G / 85G / 32G",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 6
-      },
-      {
-        "id": 1319,
-        "title": "65J / 80J / 30J",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 7
-      },
-      {
-        "id": 1318,
-        "title": "65H / 80H / 30H",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 8
-      },
-      {
-        "id": 1317,
-        "title": "80G",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 9
-      },
-      {
         "id": 1247,
         "title": "80A & AA",
         "is_default": 0,
         "is_other": 0,
-        "order": 10
+        "order": 1
       },
       {
         "id": 1248,
         "title": "80B",
         "is_default": 0,
         "is_other": 0,
-        "order": 11
+        "order": 2
       },
       {
         "id": 1249,
         "title": "80C",
         "is_default": 0,
         "is_other": 0,
-        "order": 12
+        "order": 3
       },
       {
         "id": 1250,
         "title": "80D",
         "is_default": 0,
         "is_other": 0,
-        "order": 13
+        "order": 4
       },
       {
         "id": 1251,
         "title": "80E",
         "is_default": 0,
         "is_other": 0,
-        "order": 14
+        "order": 5
       },
       {
         "id": 1252,
         "title": "80F",
         "is_default": 0,
         "is_other": 0,
-        "order": 15
+        "order": 6
+      },
+      {
+        "id": 1317,
+        "title": "80G",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 7
+      },
+      {
+        "id": 1318,
+        "title": "80H",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 8
+      },
+      {
+        "id": 1319,
+        "title": "80J",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 9
       },
       {
         "id": 1253,
         "title": "85A & AA",
         "is_default": 0,
         "is_other": 0,
-        "order": 16
+        "order": 10
       },
       {
         "id": 1254,
         "title": "85B",
         "is_default": 0,
         "is_other": 0,
-        "order": 17
+        "order": 11
       },
       {
         "id": 1255,
         "title": "85C",
         "is_default": 0,
         "is_other": 0,
-        "order": 18
+        "order": 12
       },
       {
         "id": 1256,
         "title": "85D",
         "is_default": 0,
         "is_other": 0,
-        "order": 19
+        "order": 13
       },
       {
         "id": 1257,
         "title": "85E",
         "is_default": 0,
         "is_other": 0,
-        "order": 20
+        "order": 14
       },
       {
         "id": 1258,
         "title": "85F",
         "is_default": 0,
         "is_other": 0,
-        "order": 21
+        "order": 15
+      },
+      {
+        "id": 1320,
+        "title": "85G",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 16
+      },
+      {
+        "id": 1321,
+        "title": "85H",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 17
+      },
+      {
+        "id": 1322,
+        "title": "85J",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 18
       },
       {
         "id": 1259,
         "title": "90A & AA",
         "is_default": 0,
         "is_other": 0,
-        "order": 22
+        "order": 19
       },
       {
         "id": 1260,
         "title": "90B",
         "is_default": 0,
         "is_other": 0,
-        "order": 23
+        "order": 20
       },
       {
         "id": 1261,
         "title": "90C",
         "is_default": 0,
         "is_other": 0,
-        "order": 24
+        "order": 21
       },
       {
         "id": 1262,
         "title": "90D",
         "is_default": 0,
         "is_other": 0,
-        "order": 25
+        "order": 22
       },
       {
         "id": 1263,
         "title": "90E",
         "is_default": 0,
         "is_other": 0,
-        "order": 26
+        "order": 23
       },
       {
         "id": 1264,
         "title": "90F",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 24
+      },
+      {
+        "id": 1323,
+        "title": "90G",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 25
+      },
+      {
+        "id": 1324,
+        "title": "90H",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 26
+      },
+      {
+        "id": 1325,
+        "title": "90J",
         "is_default": 0,
         "is_other": 0,
         "order": 27
