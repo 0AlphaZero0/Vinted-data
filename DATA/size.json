@@ -266,143 +266,143 @@
     "caption": "Taille",
     "description": "Tailles",
     "size_ids": [
-      1226,
-      102,
       2,
       3,
       4,
       5,
       6,
       7,
+      90,
+      97,
+      102,
       310,
       311,
       312,
+      1226,
       1227,
       1228,
       1229,
-      1230,
-      90,
-      97
+      1230
     ],
     "faq_entry_id": 506,
     "sizes": [
-      {
-        "id": 1226,
-        "title": "XXXS / 30 / 2",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 1
-      },
-      {
-        "id": 102,
-        "title": "XXS / 32 / 4",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 2
-      },
       {
         "id": 2,
         "title": "XS / 34 / 6",
         "is_default": 0,
         "is_other": 0,
-        "order": 3
+        "order": 1
       },
       {
         "id": 3,
         "title": "S / 36 / 8",
         "is_default": 0,
         "is_other": 0,
-        "order": 4
+        "order": 2
       },
       {
         "id": 4,
         "title": "M / 38 / 10",
         "is_default": 1,
         "is_other": 0,
-        "order": 5
+        "order": 3
       },
       {
         "id": 5,
         "title": "L / 40 / 12",
         "is_default": 0,
         "is_other": 0,
-        "order": 6
+        "order": 4
       },
       {
         "id": 6,
         "title": "XL / 42 / 14",
         "is_default": 0,
         "is_other": 0,
-        "order": 7
+        "order": 5
       },
       {
         "id": 7,
         "title": "XXL / 44 / 16",
         "is_default": 0,
         "is_other": 0,
-        "order": 8
-      },
-      {
-        "id": 310,
-        "title": "XXXL / 46 / 18",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 9
-      },
-      {
-        "id": 311,
-        "title": "4XL / 48 / 20",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 10
-      },
-      {
-        "id": 312,
-        "title": "5XL / 50 / 22",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 11
-      },
-      {
-        "id": 1227,
-        "title": "6XL / 52 / 24",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 12
-      },
-      {
-        "id": 1228,
-        "title": "7XL / 54 / 26",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 13
-      },
-      {
-        "id": 1229,
-        "title": "8XL / 56 / 28",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 14
-      },
-      {
-        "id": 1230,
-        "title": "9XL / 58 / 30",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 15
+        "order": 6
       },
       {
         "id": 90,
         "title": "Taille unique",
         "is_default": 0,
         "is_other": 0,
-        "order": 16
+        "order": 7
       },
       {
         "id": 97,
         "title": "Autre",
         "is_default": 0,
         "is_other": 1,
+        "order": 8
+      },
+      {
+        "id": 102,
+        "title": "XXS / 32 / 4",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 9
+      },
+      {
+        "id": 310,
+        "title": "XXXL / 46 / 18",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 10
+      },
+      {
+        "id": 311,
+        "title": "4XL / 48 / 20",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 11
+      },
+      {
+        "id": 312,
+        "title": "5XL / 50 / 22",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 12
+      },
+      {
+        "id": 1226,
+        "title": "XXXS / 30 / 2",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 13
+      },
+      {
+        "id": 1227,
+        "title": "6XL / 52 / 24",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 14
+      },
+      {
+        "id": 1228,
+        "title": "7XL / 54 / 26",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 15
+      },
+      {
+        "id": 1229,
+        "title": "8XL / 56 / 28",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 16
+      },
+      {
+        "id": 1230,
+        "title": "9XL / 58 / 30",
+        "is_default": 0,
+        "is_other": 0,
         "order": 17
       }
     ]
@@ -414,23 +414,23 @@
     "description": "Chaussures",
     "size_ids": [
       55,
-      1195,
       56,
-      1196,
       57,
-      1197,
       58,
-      1198,
       59,
-      1199,
       60,
-      1200,
       61,
-      1201,
       62,
       63,
       94,
-      99
+      99,
+      1195,
+      1196,
+      1197,
+      1198,
+      1199,
+      1200,
+      1201
     ],
     "faq_entry_id": 510,
     "sizes": [
@@ -442,122 +442,122 @@
         "order": 1
       },
       {
-        "id": 1195,
-        "title": "35.5",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 2
-      },
-      {
         "id": 56,
         "title": "36",
         "is_default": 0,
         "is_other": 0,
-        "order": 3
-      },
-      {
-        "id": 1196,
-        "title": "36.5",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 4
+        "order": 2
       },
       {
         "id": 57,
         "title": "37",
         "is_default": 0,
         "is_other": 0,
-        "order": 5
-      },
-      {
-        "id": 1197,
-        "title": "37.5",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 6
+        "order": 3
       },
       {
         "id": 58,
         "title": "38",
         "is_default": 0,
         "is_other": 0,
-        "order": 7
-      },
-      {
-        "id": 1198,
-        "title": "38.5 ",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 8
+        "order": 4
       },
       {
         "id": 59,
         "title": "39",
         "is_default": 1,
         "is_other": 0,
-        "order": 9
-      },
-      {
-        "id": 1199,
-        "title": "39.5 ",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 10
+        "order": 5
       },
       {
         "id": 60,
         "title": "40",
         "is_default": 0,
         "is_other": 0,
-        "order": 11
-      },
-      {
-        "id": 1200,
-        "title": "40.5",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 12
+        "order": 6
       },
       {
         "id": 61,
         "title": "41",
         "is_default": 0,
         "is_other": 0,
-        "order": 13
-      },
-      {
-        "id": 1201,
-        "title": "41.5 ",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 14
+        "order": 7
       },
       {
         "id": 62,
         "title": "42",
         "is_default": 0,
         "is_other": 0,
-        "order": 15
+        "order": 8
       },
       {
         "id": 63,
         "title": "43",
         "is_default": 0,
         "is_other": 0,
-        "order": 16
+        "order": 9
       },
       {
         "id": 94,
         "title": "Universel",
         "is_default": 0,
         "is_other": 0,
-        "order": 17
+        "order": 10
       },
       {
         "id": 99,
         "title": "Autre",
         "is_default": 0,
         "is_other": 1,
+        "order": 11
+      },
+      {
+        "id": 1195,
+        "title": "35.5",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 12
+      },
+      {
+        "id": 1196,
+        "title": "36.5",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 13
+      },
+      {
+        "id": 1197,
+        "title": "37.5",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 14
+      },
+      {
+        "id": 1198,
+        "title": "38.5 ",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 15
+      },
+      {
+        "id": 1199,
+        "title": "39.5 ",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 16
+      },
+      {
+        "id": 1200,
+        "title": "40.5",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 17
+      },
+      {
+        "id": 1201,
+        "title": "41.5 ",
+        "is_default": 0,
+        "is_other": 0,
         "order": 18
       }
     ]
@@ -569,7 +569,6 @@
     "description": "Tailles enfants et b\u00e9b\u00e9s",
     "size_ids": [
       610,
-      666,
       612,
       613,
       614,
@@ -577,6 +576,7 @@
       617,
       618,
       619,
+      620,
       622,
       623,
       624,
@@ -591,7 +591,7 @@
       633,
       634,
       635,
-      620
+      666
     ],
     "faq_entry_id": 516,
     "sizes": [
@@ -603,57 +603,57 @@
         "order": 1
       },
       {
-        "id": 666,
-        "title": "Nouveau n\u00e9 / 44-50 cm",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 2
-      },
-      {
         "id": 612,
         "title": "Jusqu'\u00e0 1 mois / 50-56 cm",
         "is_default": 0,
         "is_other": 0,
-        "order": 3
+        "order": 2
       },
       {
         "id": 613,
         "title": "1-3 mois / 56-62 cm",
         "is_default": 0,
         "is_other": 0,
-        "order": 4
+        "order": 3
       },
       {
         "id": 614,
         "title": "3-6 mois / 62-68 cm",
         "is_default": 0,
         "is_other": 0,
-        "order": 5
+        "order": 4
       },
       {
         "id": 616,
         "title": "6-9 mois / 68-74 cm",
         "is_default": 0,
         "is_other": 0,
-        "order": 6
+        "order": 5
       },
       {
         "id": 617,
         "title": "9-12 mois / 74-80 cm",
         "is_default": 0,
         "is_other": 0,
-        "order": 7
+        "order": 6
       },
       {
         "id": 618,
         "title": "12-18 mois / 80-86 cm",
         "is_default": 0,
         "is_other": 0,
-        "order": 8
+        "order": 7
       },
       {
         "id": 619,
         "title": "18-24 mois / 86-92 cm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 8
+      },
+      {
+        "id": 620,
+        "title": "Taille unique",
         "is_default": 0,
         "is_other": 0,
         "order": 9
@@ -757,8 +757,8 @@
         "order": 23
       },
       {
-        "id": 620,
-        "title": "Taille unique",
+        "id": 666,
+        "title": "Nouveau n\u00e9 / 44-50 cm",
         "is_default": 0,
         "is_other": 0,
         "order": 24
@@ -771,10 +771,6 @@
     "caption": "Taille",
     "description": "Tailles de chaussures pour enfants",
     "size_ids": [
-      660,
-      659,
-      658,
-      657,
       585,
       586,
       587,
@@ -799,209 +795,213 @@
       606,
       607,
       608,
-      609
+      609,
+      657,
+      658,
+      659,
+      660
     ],
     "faq_entry_id": 512,
     "sizes": [
-      {
-        "id": 660,
-        "title": "12",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 1
-      },
-      {
-        "id": 659,
-        "title": "13",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 2
-      },
-      {
-        "id": 658,
-        "title": "14",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 3
-      },
-      {
-        "id": 657,
-        "title": "15",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 4
-      },
       {
         "id": 585,
         "title": "16",
         "is_default": 0,
         "is_other": 0,
-        "order": 5
+        "order": 1
       },
       {
         "id": 586,
         "title": "17",
         "is_default": 0,
         "is_other": 0,
-        "order": 6
+        "order": 2
       },
       {
         "id": 587,
         "title": "18",
         "is_default": 0,
         "is_other": 0,
-        "order": 7
+        "order": 3
       },
       {
         "id": 588,
         "title": "19",
         "is_default": 0,
         "is_other": 0,
-        "order": 8
+        "order": 4
       },
       {
         "id": 589,
         "title": "20",
         "is_default": 0,
         "is_other": 0,
-        "order": 9
+        "order": 5
       },
       {
         "id": 590,
         "title": "21",
         "is_default": 0,
         "is_other": 0,
-        "order": 10
+        "order": 6
       },
       {
         "id": 591,
         "title": "22",
         "is_default": 0,
         "is_other": 0,
-        "order": 11
+        "order": 7
       },
       {
         "id": 592,
         "title": "23",
         "is_default": 0,
         "is_other": 0,
-        "order": 12
+        "order": 8
       },
       {
         "id": 593,
         "title": "24",
         "is_default": 0,
         "is_other": 0,
-        "order": 13
+        "order": 9
       },
       {
         "id": 594,
         "title": "25",
         "is_default": 0,
         "is_other": 0,
-        "order": 14
+        "order": 10
       },
       {
         "id": 595,
         "title": "26",
         "is_default": 0,
         "is_other": 0,
-        "order": 15
+        "order": 11
       },
       {
         "id": 596,
         "title": "27",
         "is_default": 0,
         "is_other": 0,
-        "order": 16
+        "order": 12
       },
       {
         "id": 597,
         "title": "28",
         "is_default": 0,
         "is_other": 0,
-        "order": 17
+        "order": 13
       },
       {
         "id": 598,
         "title": "29",
         "is_default": 1,
         "is_other": 0,
-        "order": 18
+        "order": 14
       },
       {
         "id": 599,
         "title": "30",
         "is_default": 0,
         "is_other": 0,
-        "order": 19
+        "order": 15
       },
       {
         "id": 600,
         "title": "31",
         "is_default": 0,
         "is_other": 0,
-        "order": 20
+        "order": 16
       },
       {
         "id": 601,
         "title": "32",
         "is_default": 0,
         "is_other": 0,
-        "order": 21
+        "order": 17
       },
       {
         "id": 602,
         "title": "33",
         "is_default": 0,
         "is_other": 0,
-        "order": 22
+        "order": 18
       },
       {
         "id": 603,
         "title": "34",
         "is_default": 0,
         "is_other": 0,
-        "order": 23
+        "order": 19
       },
       {
         "id": 604,
         "title": "35",
         "is_default": 0,
         "is_other": 0,
-        "order": 24
+        "order": 20
       },
       {
         "id": 605,
         "title": "36",
         "is_default": 0,
         "is_other": 0,
-        "order": 25
+        "order": 21
       },
       {
         "id": 606,
         "title": "37",
         "is_default": 0,
         "is_other": 0,
-        "order": 26
+        "order": 22
       },
       {
         "id": 607,
         "title": "38",
         "is_default": 0,
         "is_other": 0,
-        "order": 27
+        "order": 23
       },
       {
         "id": 608,
         "title": "39",
         "is_default": 0,
         "is_other": 0,
-        "order": 28
+        "order": 24
       },
       {
         "id": 609,
         "title": "40",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 25
+      },
+      {
+        "id": 657,
+        "title": "15",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 26
+      },
+      {
+        "id": 658,
+        "title": "14",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 27
+      },
+      {
+        "id": 659,
+        "title": "13",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 28
+      },
+      {
+        "id": 660,
+        "title": "12",
         "is_default": 0,
         "is_other": 0,
         "order": 29
@@ -1207,8 +1207,8 @@
       542,
       544,
       547,
-      1188,
-      662
+      662,
+      1188
     ],
     "faq_entry_id": null,
     "sizes": [
@@ -1234,17 +1234,17 @@
         "order": 3
       },
       {
-        "id": 1188,
-        "title": "22-36 kg",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 4
-      },
-      {
         "id": 662,
         "title": "Autre",
         "is_default": 0,
         "is_other": 1,
+        "order": 4
+      },
+      {
+        "id": 1188,
+        "title": "22-36 kg",
+        "is_default": 0,
+        "is_other": 0,
         "order": 5
       }
     ]
@@ -1255,7 +1255,6 @@
     "caption": "Age",
     "description": "\u00c2ge enfant",
     "size_ids": [
-      577,
       565,
       566,
       567,
@@ -1264,108 +1263,109 @@
       570,
       571,
       572,
-      1311,
       573,
       574,
       575,
-      576
+      576,
+      577,
+      1311
     ],
     "faq_entry_id": null,
     "sizes": [
-      {
-        "id": 577,
-        "title": "Peu importe",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 1
-      },
       {
         "id": 565,
         "title": "0 mois",
         "is_default": 0,
         "is_other": 0,
-        "order": 2
+        "order": 1
       },
       {
         "id": 566,
         "title": "3 mois",
         "is_default": 0,
         "is_other": 0,
-        "order": 3
+        "order": 2
       },
       {
         "id": 567,
         "title": "6 mois",
         "is_default": 0,
         "is_other": 0,
-        "order": 4
+        "order": 3
       },
       {
         "id": 568,
         "title": "9 mois",
         "is_default": 0,
         "is_other": 0,
-        "order": 5
+        "order": 4
       },
       {
         "id": 569,
         "title": "12 mois",
         "is_default": 0,
         "is_other": 0,
-        "order": 6
+        "order": 5
       },
       {
         "id": 570,
         "title": "18 mois",
         "is_default": 0,
         "is_other": 0,
-        "order": 7
+        "order": 6
       },
       {
         "id": 571,
         "title": "2 ans",
         "is_default": 1,
         "is_other": 0,
-        "order": 8
+        "order": 7
       },
       {
         "id": 572,
         "title": "3 ans",
         "is_default": 0,
         "is_other": 0,
-        "order": 9
-      },
-      {
-        "id": 1311,
-        "title": "4 ans",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 10
+        "order": 8
       },
       {
         "id": 573,
         "title": "5 ans",
         "is_default": 0,
         "is_other": 0,
-        "order": 11
+        "order": 9
       },
       {
         "id": 574,
         "title": "6 ans",
         "is_default": 0,
         "is_other": 0,
-        "order": 12
+        "order": 10
       },
       {
         "id": 575,
         "title": "7 ans",
         "is_default": 0,
         "is_other": 0,
-        "order": 13
+        "order": 11
       },
       {
         "id": 576,
         "title": "8 ans",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 12
+      },
+      {
+        "id": 577,
+        "title": "Peu importe",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 13
+      },
+      {
+        "id": 1311,
+        "title": "4 ans",
         "is_default": 0,
         "is_other": 0,
         "order": 14
@@ -1884,27 +1884,18 @@
       1250,
       1251,
       1252,
-      1317,
-      1318,
-      1319,
       1253,
       1254,
       1255,
       1256,
       1257,
       1258,
-      1320,
-      1321,
-      1322,
       1259,
       1260,
       1261,
       1262,
       1263,
       1264,
-      1323,
-      1324,
-      1325,
       1265,
       1266,
       1267,
@@ -1950,7 +1941,16 @@
       1307,
       1308,
       1309,
-      1310
+      1310,
+      1317,
+      1318,
+      1319,
+      1320,
+      1321,
+      1322,
+      1323,
+      1324,
+      1325
     ],
     "faq_entry_id": 508,
     "sizes": [
@@ -1997,470 +1997,470 @@
         "order": 6
       },
       {
-        "id": 1317,
-        "title": "80G",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 7
-      },
-      {
-        "id": 1318,
-        "title": "80H",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 8
-      },
-      {
-        "id": 1319,
-        "title": "80J",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 9
-      },
-      {
         "id": 1253,
         "title": "85A & AA",
         "is_default": 0,
         "is_other": 0,
-        "order": 10
+        "order": 7
       },
       {
         "id": 1254,
         "title": "85B",
         "is_default": 0,
         "is_other": 0,
-        "order": 11
+        "order": 8
       },
       {
         "id": 1255,
         "title": "85C",
         "is_default": 0,
         "is_other": 0,
-        "order": 12
+        "order": 9
       },
       {
         "id": 1256,
         "title": "85D",
         "is_default": 0,
         "is_other": 0,
-        "order": 13
+        "order": 10
       },
       {
         "id": 1257,
         "title": "85E",
         "is_default": 0,
         "is_other": 0,
-        "order": 14
+        "order": 11
       },
       {
         "id": 1258,
         "title": "85F",
         "is_default": 0,
         "is_other": 0,
-        "order": 15
-      },
-      {
-        "id": 1320,
-        "title": "85G",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 16
-      },
-      {
-        "id": 1321,
-        "title": "85H",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 17
-      },
-      {
-        "id": 1322,
-        "title": "85J",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 18
+        "order": 12
       },
       {
         "id": 1259,
         "title": "90A & AA",
         "is_default": 0,
         "is_other": 0,
-        "order": 19
+        "order": 13
       },
       {
         "id": 1260,
         "title": "90B",
         "is_default": 0,
         "is_other": 0,
-        "order": 20
+        "order": 14
       },
       {
         "id": 1261,
         "title": "90C",
         "is_default": 0,
         "is_other": 0,
-        "order": 21
+        "order": 15
       },
       {
         "id": 1262,
         "title": "90D",
         "is_default": 0,
         "is_other": 0,
-        "order": 22
+        "order": 16
       },
       {
         "id": 1263,
         "title": "90E",
         "is_default": 0,
         "is_other": 0,
-        "order": 23
+        "order": 17
       },
       {
         "id": 1264,
         "title": "90F",
         "is_default": 0,
         "is_other": 0,
-        "order": 24
-      },
-      {
-        "id": 1323,
-        "title": "90G",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 25
-      },
-      {
-        "id": 1324,
-        "title": "90H",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 26
-      },
-      {
-        "id": 1325,
-        "title": "90J",
-        "is_default": 0,
-        "is_other": 0,
-        "order": 27
+        "order": 18
       },
       {
         "id": 1265,
         "title": "95A & AA",
         "is_default": 0,
         "is_other": 0,
-        "order": 28
+        "order": 19
       },
       {
         "id": 1266,
         "title": "95B",
         "is_default": 0,
         "is_other": 0,
-        "order": 29
+        "order": 20
       },
       {
         "id": 1267,
         "title": "95C",
         "is_default": 0,
         "is_other": 0,
-        "order": 30
+        "order": 21
       },
       {
         "id": 1268,
         "title": "95D",
         "is_default": 0,
         "is_other": 0,
-        "order": 31
+        "order": 22
       },
       {
         "id": 1269,
         "title": "95E",
         "is_default": 0,
         "is_other": 0,
-        "order": 32
+        "order": 23
       },
       {
         "id": 1270,
         "title": "95F",
         "is_default": 0,
         "is_other": 0,
-        "order": 33
+        "order": 24
       },
       {
         "id": 1271,
         "title": "95G",
         "is_default": 0,
         "is_other": 0,
-        "order": 34
+        "order": 25
       },
       {
         "id": 1272,
         "title": "95H",
         "is_default": 0,
         "is_other": 0,
-        "order": 35
+        "order": 26
       },
       {
         "id": 1273,
         "title": "95J",
         "is_default": 0,
         "is_other": 0,
-        "order": 36
+        "order": 27
       },
       {
         "id": 1274,
         "title": "100A & AA",
         "is_default": 0,
         "is_other": 0,
-        "order": 37
+        "order": 28
       },
       {
         "id": 1275,
         "title": "100B",
         "is_default": 0,
         "is_other": 0,
-        "order": 38
+        "order": 29
       },
       {
         "id": 1276,
         "title": "100C",
         "is_default": 0,
         "is_other": 0,
-        "order": 39
+        "order": 30
       },
       {
         "id": 1277,
         "title": "100D",
         "is_default": 0,
         "is_other": 0,
-        "order": 40
+        "order": 31
       },
       {
         "id": 1278,
         "title": "100E",
         "is_default": 0,
         "is_other": 0,
-        "order": 41
+        "order": 32
       },
       {
         "id": 1279,
         "title": "100F",
         "is_default": 0,
         "is_other": 0,
-        "order": 42
+        "order": 33
       },
       {
         "id": 1280,
         "title": "100G",
         "is_default": 0,
         "is_other": 0,
-        "order": 43
+        "order": 34
       },
       {
         "id": 1281,
         "title": "100H",
         "is_default": 0,
         "is_other": 0,
-        "order": 44
+        "order": 35
       },
       {
         "id": 1282,
         "title": "100J",
         "is_default": 0,
         "is_other": 0,
-        "order": 45
+        "order": 36
       },
       {
         "id": 1283,
         "title": "105A & AA",
         "is_default": 0,
         "is_other": 0,
-        "order": 46
+        "order": 37
       },
       {
         "id": 1284,
         "title": "105B",
         "is_default": 0,
         "is_other": 0,
-        "order": 47
+        "order": 38
       },
       {
         "id": 1285,
         "title": "105C",
         "is_default": 0,
         "is_other": 0,
-        "order": 48
+        "order": 39
       },
       {
         "id": 1286,
         "title": "105D",
         "is_default": 0,
         "is_other": 0,
-        "order": 49
+        "order": 40
       },
       {
         "id": 1287,
         "title": "105E",
         "is_default": 0,
         "is_other": 0,
-        "order": 50
+        "order": 41
       },
       {
         "id": 1288,
         "title": "105F",
         "is_default": 0,
         "is_other": 0,
-        "order": 51
+        "order": 42
       },
       {
         "id": 1289,
         "title": "106G",
         "is_default": 0,
         "is_other": 0,
-        "order": 52
+        "order": 43
       },
       {
         "id": 1290,
         "title": "105H",
         "is_default": 0,
         "is_other": 0,
-        "order": 53
+        "order": 44
       },
       {
         "id": 1291,
         "title": "105J",
         "is_default": 0,
         "is_other": 0,
-        "order": 54
+        "order": 45
       },
       {
         "id": 1292,
         "title": "110A & AA",
         "is_default": 0,
         "is_other": 0,
-        "order": 55
+        "order": 46
       },
       {
         "id": 1293,
         "title": "110B",
         "is_default": 0,
         "is_other": 0,
-        "order": 56
+        "order": 47
       },
       {
         "id": 1294,
         "title": "110C",
         "is_default": 0,
         "is_other": 0,
-        "order": 57
+        "order": 48
       },
       {
         "id": 1295,
         "title": "110D",
         "is_default": 0,
         "is_other": 0,
-        "order": 58
+        "order": 49
       },
       {
         "id": 1296,
         "title": "110E",
         "is_default": 0,
         "is_other": 0,
-        "order": 59
+        "order": 50
       },
       {
         "id": 1297,
         "title": "110F",
         "is_default": 0,
         "is_other": 0,
-        "order": 60
+        "order": 51
       },
       {
         "id": 1298,
         "title": "110G",
         "is_default": 0,
         "is_other": 0,
-        "order": 61
+        "order": 52
       },
       {
         "id": 1299,
         "title": "110H",
         "is_default": 0,
         "is_other": 0,
-        "order": 62
+        "order": 53
       },
       {
         "id": 1300,
         "title": "110J",
         "is_default": 0,
         "is_other": 0,
-        "order": 63
+        "order": 54
       },
       {
         "id": 1301,
         "title": "115A & AA",
         "is_default": 0,
         "is_other": 0,
-        "order": 64
+        "order": 55
       },
       {
         "id": 1302,
         "title": "115B",
         "is_default": 0,
         "is_other": 0,
-        "order": 65
+        "order": 56
       },
       {
         "id": 1303,
         "title": "115C",
         "is_default": 0,
         "is_other": 0,
-        "order": 66
+        "order": 57
       },
       {
         "id": 1304,
         "title": "115D",
         "is_default": 0,
         "is_other": 0,
-        "order": 67
+        "order": 58
       },
       {
         "id": 1305,
         "title": "115E",
         "is_default": 0,
         "is_other": 0,
-        "order": 68
+        "order": 59
       },
       {
         "id": 1306,
         "title": "115F",
         "is_default": 0,
         "is_other": 0,
-        "order": 69
+        "order": 60
       },
       {
         "id": 1307,
         "title": "115G",
         "is_default": 0,
         "is_other": 0,
-        "order": 70
+        "order": 61
       },
       {
         "id": 1308,
         "title": "115H",
         "is_default": 0,
         "is_other": 0,
-        "order": 71
+        "order": 62
       },
       {
         "id": 1309,
         "title": "115J",
         "is_default": 0,
         "is_other": 0,
-        "order": 72
+        "order": 63
       },
       {
         "id": 1310,
         "title": "Autre",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 64
+      },
+      {
+        "id": 1317,
+        "title": "80G",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 65
+      },
+      {
+        "id": 1318,
+        "title": "80H",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 66
+      },
+      {
+        "id": 1319,
+        "title": "80J",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 67
+      },
+      {
+        "id": 1320,
+        "title": "85G",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 68
+      },
+      {
+        "id": 1321,
+        "title": "85H",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 69
+      },
+      {
+        "id": 1322,
+        "title": "85J",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 70
+      },
+      {
+        "id": 1323,
+        "title": "90G",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 71
+      },
+      {
+        "id": 1324,
+        "title": "90H",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 72
+      },
+      {
+        "id": 1325,
+        "title": "90J",
         "is_default": 0,
         "is_other": 0,
         "order": 73
