@@ -2468,6 +2468,201 @@
     ]
   },
   {
+    "id": 56,
+    "caption_code": 10,
+    "caption": "Taille",
+    "description": "Bagues",
+    "size_ids": [
+      1328,
+      1329,
+      1330,
+      1331,
+      1332,
+      1333,
+      1334,
+      1335,
+      1336,
+      1337,
+      1338,
+      1339,
+      1340,
+      1341,
+      1342,
+      1343,
+      1344,
+      1346,
+      1347,
+      1348,
+      1349,
+      1350,
+      1351
+    ],
+    "faq_entry_id": 509,
+    "sizes": [
+      {
+        "id": 1328,
+        "title": "14.1 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 0
+      },
+      {
+        "id": 1329,
+        "title": "14.5 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 1
+      },
+      {
+        "id": 1330,
+        "title": "14.9 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 2
+      },
+      {
+        "id": 1331,
+        "title": "15.3 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 3
+      },
+      {
+        "id": 1332,
+        "title": "15.7 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 4
+      },
+      {
+        "id": 1333,
+        "title": "16.1 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 5
+      },
+      {
+        "id": 1334,
+        "title": "16.5 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 6
+      },
+      {
+        "id": 1335,
+        "title": "16.9 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 7
+      },
+      {
+        "id": 1336,
+        "title": "17.3 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 8
+      },
+      {
+        "id": 1337,
+        "title": "17.7 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 9
+      },
+      {
+        "id": 1338,
+        "title": "18.1 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 10
+      },
+      {
+        "id": 1339,
+        "title": "18.5 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 11
+      },
+      {
+        "id": 1340,
+        "title": "19 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 12
+      },
+      {
+        "id": 1341,
+        "title": "19.4 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 13
+      },
+      {
+        "id": 1342,
+        "title": "19.8 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 14
+      },
+      {
+        "id": 1343,
+        "title": "20.2 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 15
+      },
+      {
+        "id": 1344,
+        "title": "20.6 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 16
+      },
+      {
+        "id": 1346,
+        "title": "21 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 17
+      },
+      {
+        "id": 1347,
+        "title": "21.4 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 18
+      },
+      {
+        "id": 1348,
+        "title": "21.8 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 19
+      },
+      {
+        "id": 1349,
+        "title": "22.2 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 20
+      },
+      {
+        "id": 1350,
+        "title": "22.6 mm",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 21
+      },
+      {
+        "id": 1351,
+        "title": "Ajustable",
+        "is_default": 0,
+        "is_other": 0,
+        "order": 22
+      }
+    ]
+  },
+  {
     "id": 54,
     "caption_code": 10,
     "caption": "Taille",
