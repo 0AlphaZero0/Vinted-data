@@ -263,6 +263,7 @@ def JSONfromID(id_names=[x for x in id_supported],id_range=range(0,100),per_page
 
         """
         req = requests.get(url).text
+        print(req)
         id_DATA = json.loads(re.findall(id_supported[id_name]["regex"], req)[0])
         if "mainStore" in id_supported[id_name]:
             return id_DATA["catalogFilters"]["dtos"][id_supported[id_name]["mainStore"]]
